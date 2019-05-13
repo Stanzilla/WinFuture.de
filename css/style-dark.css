@@ -232,10 +232,16 @@ a.snippet_ticker div.topteaser {
     color: #dfe0e0 !important;
 }
 
+/* Flame Icon Boxen */
 .tab_flame,
 .rightBxFlameIcon {
     background: url(https://i.imgur.com/iKJXpBc.png) no-repeat;
     top: 0px;
+}
+
+/* WF Icon Boxen */
+.rightBxWinFutureIcon {
+    background: url(https://i.imgur.com/XJR1rdh.png) no-repeat;
 }
 
 .rightBx h3 {
@@ -253,7 +259,7 @@ a.snippet_ticker div.topteaser {
 .rightBx,
 .rightBx_btm2,
 .special_teaser {
-    background: #3c4043 !important;
+    background: #3c4043;
     border: 1px solid #3c4043;
     border-radius: 5px;
 }
@@ -266,6 +272,16 @@ a.snippet_ticker div.topteaser {
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+/* Right Box Green */
+.right_greenBx {
+    border-color: #88b740;
+}
+
+/* Right Box Orange */
+.right_orangeBx {
+    border-color: #febf22; /* #fddd9d; */
 }
 
 .rightBx a span,
@@ -829,7 +845,5 @@ input.inputbox {
 /* TODO
 
 https://winfuture.de/news,108898.html Neue Amazon Bilder Box, Jetzt als Amazon Blitzangebot Box
-
-
 
 */
