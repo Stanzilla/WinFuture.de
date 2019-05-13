@@ -43,7 +43,8 @@ a.archive_link {
     color: #999 !important;
 }
 
-.primary_content a.newslink {
+.primary_content a.newslink,
+ul.bottom_topcontents li {
     border-bottom: 1px solid #dfe0e0;
 }
 
@@ -450,7 +451,7 @@ span.exclusive a {
     background: none;
 }
 
-
+.bottom_topcontents li a img,
 .topnews img,
 .topteaser img,
 div.topteaser a.teaser_picture img {
@@ -463,6 +464,7 @@ div.topteaser a.teaser_picture img {
     border-color: #121212;
 }
 
+.bottom_topcontents li a img:hover,
 .right_videos li div:hover,
 .right_news li div a img:hover,
 .topnews img:hover,
@@ -500,6 +502,7 @@ h3.bottom_topcontents {
     color: #dfe0e0;
 }
 
+#geizhals #gh_searchbox .gh_suchen_bt,
 .rBxForm1 .submit,
 .rightBx form.geizhals_search input[type=submit],
 .centForm2 .submit,
@@ -515,6 +518,7 @@ h3.bottom_topcontents {
     font-weight: 700;
 }
 
+#geizhals #gh_searchbox .gh_suchen_bt:hover,
 .rBxForm1 .submit:hover,
 .rightBx form.geizhals_search input[type=submit]:hover,
 .centForm2 .submit:hover,
@@ -662,7 +666,7 @@ textarea:focus {
 }
 
 /* News Einsenden Box */
-
+#fs,
 .inputbox {
     border: 1px solid #dfe0e0;
     background: #2f3136;
@@ -702,6 +706,40 @@ input.inputbox {
     color: #dfe0e0;
 }
 
+/* Preisvergleich Seite */
+#geizhals #ghbody #gh_searchform {
+    background-image: none;
+    /* border: 1px solid #dfe0e0;
+    border-radius: 5px;
+    background: #3c4043; */
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #dfe0e0;
+}
+
+#geizhals #gh_searchbox {
+    padding: 0 10px !important;
+}
+
+#geizhals .box10 .box10h {
+    background: #2f3136 !important;
+    border: 1px solid #3c4043;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0;
+    padding: 5px 10px 5px;
+    text-transform: uppercase;
+}
+
+#geizhals .box10 ol, #geizhals .box10 ul {
+    background: #3c4043 !important;
+    border: 1px solid #3c4043;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-left: 30px;
+}
 /* Downloads */
 
 .generic_box.with_timestamp dfn, li.with_timestamp dfn {
