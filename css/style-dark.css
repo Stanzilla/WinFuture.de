@@ -712,6 +712,7 @@ input.inputbox {
 }
 
 /* Preisvergleich Seite */
+
 #geizhals #ghbody #gh_searchform {
     background-image: none;
     /* border: 1px solid #dfe0e0;
@@ -745,6 +746,7 @@ input.inputbox {
     border-top-right-radius: 0px;
     padding-left: 30px;
 }
+
 /* Downloads */
 
 .generic_box.with_timestamp dfn, li.with_timestamp dfn {
@@ -765,6 +767,29 @@ input.inputbox {
     border: none;
 }
 
+/* Infografiken */
+
+.infografik_list .column .infografik_entry {
+    background: #3c4043;
+    border-radius: 5px;
+}
+
+.infografik_list .column .infografik_entry .meta {
+    color: #dfe0e0;
+}
+
+.infografik_list .column .infografik_entry:hover {
+    transition: all 0.3s ease-in-out;
+    background: #dfe0e0;
+    color: #3c4043;
+    box-shadow: 0 0 5px #3c4043;
+    border: 1px solid #3c4043;
+}
+
+.infografik_list .column .infografik_entry:hover .meta,
+.infografik_list .column .infografik_entry:hover h2 a {
+    color: #3c4043 !important;
+}
 
 /* Footer */
 
@@ -787,3 +812,12 @@ input.inputbox {
 #footer .search li a {
     font-weight: normal;
 }
+
+
+/* TODO
+
+https://winfuture.de/news,108898.html Neue Amazon Bilder Box, Jetzt als Amazon Blitzangebot Box
+
+
+
+*/
