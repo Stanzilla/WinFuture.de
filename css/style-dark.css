@@ -44,11 +44,11 @@ a.archive_link {
 }
 
 .primary_content a.newslink {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #dfe0e0;
 }
 
 .primary_content a.newslink:hover {
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dotted #dfe0e0;
     background-color: #3c4043;
     color: #dfe0e0;
 }
@@ -96,6 +96,7 @@ a.archive_link {
 .comment_write_form span,
 #news_content h2,
 .centerTitle h1,
+h2.subnavigation,
 #header .navigation ul#breadcrumb li span {
     color: #dfe0e0 !important;
 }
@@ -159,7 +160,7 @@ a.snippet_ticker div.topteaser {
 }
 
 #rightWrap .metadata_box .rightBxIn ul li b {
-    color: white;
+    color: #dfe0e0;
 }
 
 .generic_box li {
@@ -173,7 +174,7 @@ a.snippet_ticker div.topteaser {
 /* broken, lieber neue bilder
    .rightBxIn ul li a::before {
       content: ">";
-      color: white;
+      color: #dfe0e0;
   }
   */
 .rightBxIn ul li {
@@ -199,6 +200,9 @@ a.snippet_ticker div.topteaser {
 .special_teaser h3,
 .newsList1 cite {
     color: #dfe0e0 !important;
+    text-transform: uppercase;
+    border-color: #3c4043;
+    font-size: 1em !important;
 }
 
 .newsList1 li a {
@@ -221,8 +225,10 @@ a.snippet_ticker div.topteaser {
     color: #dfe0e0 !important;
 }
 
+.tab_flame,
 .rightBxFlameIcon {
     background: url(https://i.imgur.com/iKJXpBc.png) no-repeat;
+    top: 0px;
 }
 
 .rightBx h3 {
@@ -444,23 +450,43 @@ span.exclusive a {
     background: none;
 }
 
-.right_news li div a img,
+
 .topnews img,
 .topteaser img,
 div.topteaser a.teaser_picture img {
-    border-color: #3c4043;
+    border: 1px solid #3c4043;
 }
 
+.right_news li div a img,
 .right_videos li div,
 .VR_2 .strip-img {
-    border-color: #121212 !important;
+    border-color: #121212;
 }
 
-.tabs,
+.right_videos li div:hover,
+.right_news li div a img:hover,
+.topnews img:hover,
+.topteaser img:hover,
+div.topteaser a.teaser_picture img:hover {
+    transition: all 0.3s ease-in-out;
+    border-color: #dfe0e0;
+}
+
+.topnews a span.img_container {
+    overflow: visible !important;
+    padding-bottom: 10px;
+}
+
 h3.bottom_topcontents {
     border-color: #3c4043;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    text-transform: uppercase;
+}
+.tabs {
+    border-color: #3c4043;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
 }
 
 .tabs .tab {
@@ -471,7 +497,7 @@ h3.bottom_topcontents {
     border-radius: 5px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    color: #e1e1e1;
+    color: #dfe0e0;
 }
 
 .rBxForm1 .submit,
@@ -675,6 +701,27 @@ input.inputbox {
     background: #2f3136;
     color: #dfe0e0;
 }
+
+/* Downloads */
+
+.generic_box.with_timestamp dfn, li.with_timestamp dfn {
+    background: 0 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    float: left;
+    height: 14px;
+    padding: 2px 5px;
+    margin-right: 8px;
+    color: #dfe0e0;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-style: normal;
+    border: none;
+}
+
 
 /* Footer */
 
