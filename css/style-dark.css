@@ -101,6 +101,7 @@ ul.bottom_topcontents li {
 h2.subnavigation,
 #header .navigation ul#breadcrumb li span {
     color: #dfe0e0 !important;
+    text-transform: uppercase;
 }
 
 #header .navigation ul li.active a,
@@ -507,6 +508,7 @@ h3.bottom_topcontents {
     color: #dfe0e0;
 }
 
+.news_einsenden_form .submit,
 #geizhals #gh_searchbox .gh_suchen_bt,
 .rBxForm1 .submit,
 .rightBx form.geizhals_search input[type=submit],
@@ -523,6 +525,7 @@ h3.bottom_topcontents {
     font-weight: 700;
 }
 
+.news_einsenden_form .submit:hover,
 #geizhals #gh_searchbox .gh_suchen_bt:hover,
 .rBxForm1 .submit:hover,
 .rightBx form.geizhals_search input[type=submit]:hover,
@@ -791,6 +794,15 @@ input.inputbox {
     color: #3c4043 !important;
 }
 
+/* Tipp Einsenden */
+.news_einsenden_form .clearB_w label,
+.starLink {
+    color: #dfe0e0;
+}
+
+.starLink {
+    background: url(https://i.imgur.com/bUPmlqp.png) left no-repeat;
+}
 /* Footer */
 
 #footer {
