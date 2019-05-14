@@ -87,7 +87,8 @@ ul.bottom_topcontents li {
 .content_wrap h1.centerTitle {
     border-bottom: 1px solid #3c4043;
     font-size: 1em;
-    text-transform: uppercase;
+    color: #dfe0e0 !important;
+    /* text-transform: uppercase; */
 }
 
 #news_content .hmedia.small_teaser_picture img.photo {
@@ -97,10 +98,8 @@ ul.bottom_topcontents li {
 .VR_1 .ob_org_header,
 .AR_1 .ob_org_header,
 .AR_2 .ob_org_header,
-.centerTitle,
 .comment_write_form span,
 #news_content h2,
-.centerTitle h1,
 h2.subnavigation,
 #header .navigation ul#breadcrumb li span {
     color: #dfe0e0 !important;
@@ -469,6 +468,8 @@ span.exclusive a {
 .bottom_topcontents li a img,
 .topnews img,
 .topteaser img,
+.topnews div.news330 img,
+.topnews div.news670 img,
 div.topteaser a.teaser_picture img {
     border: 1px solid #3c4043;
 }
@@ -484,6 +485,8 @@ div.topteaser a.teaser_picture img {
 .right_news li div a img:hover,
 .topnews img:hover,
 .topteaser img:hover,
+.topnews div.news330 img:hover,
+.topnews div.news670 img:hover
 div.topteaser a.teaser_picture img:hover {
     transition: all 0.3s ease-in-out;
     border-color: #dfe0e0;
