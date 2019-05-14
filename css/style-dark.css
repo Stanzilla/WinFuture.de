@@ -104,15 +104,6 @@ h2.subnavigation,
     text-transform: uppercase;
 }
 
-#header .navigation ul li.active a,
-#header .navigation ul li:hover a {
-    text-shadow: none;
-}
-
-#header .navigation ul li:hover a {
-    color: #b81f17 !important;
-}
-
 h3.bottom_topcontents {
     color: #dfe0e0 !important;
 }
@@ -171,7 +162,9 @@ a.snippet_ticker div.topteaser {
     border: none;
 }
 
-.generic_box li a, .newsList6 li, .news_rubriken li a {
+.generic_box li a,
+.newsList6 li,
+.news_rubriken li a {
     background: url(https://i.imgur.com/SwuWh7q.gif) right -84px no-repeat;
 }
 
@@ -346,14 +339,6 @@ ul.orange_teaser_tabs {
     color: #121212 !important;
 }
 
-#header .navigation ul li a {
-    line-height: 32px;
-}
-
-#header #subNavigation ul li a {
-    line-height: 28px;
-}
-
 /* Main Navigation */
 
 #mainNavigation {
@@ -366,37 +351,38 @@ ul.orange_teaser_tabs {
 
 #mainNavigation ul li a {
     text-shadow: #000 1px 1px 0;
+    /* line-height: 30px; */
 }
 
 /* Fold Navi aka "mehr" Menü */
 
-ul.foldnavi li.first {
-    background: #2f3136 !important;
-    /* border-radius: 5px 5px 0 0; */
-    text-shadow: none;
-    padding-top: 6px;
-    height: 20px;
+#header #topnavi #mainNavigation ul li ul.foldnavi {
+    border: none;
+    background: #2f3136;
+    border-color: #3c4043;
+}
+
+#header #topnavi #mainNavigation ul li ul.foldnavi li a {
+    border-color: #212121;
+
+}
+
+#header #topnavi #mainNavigation ul li ul.foldnavi li.first {
+    background: #3c4043;
+    border-radius: 5px 5px 0 0;
+    border-color: #212121;
 }
 
 #header #topnavi #mainNavigation ul li ul.foldnavi li.first a {
     text-shadow: none;
 }
 
-#header #topnavi #mainNavigation ul li ul.foldnavi li a {
-    height: 18px;
-    line-height: 18px !important;
-    padding-bottom: 6px;
-}
-
 #header #topnavi #mainNavigation ul li ul.foldnavi li a:hover {
     background: #3c4043;
 }
 
-ul.foldnavi {
-    border: none;
-    background: #2f3136 !important;
-    border-color: #3c4043 !important;
-    /* line-height: 20px; */
+#header #topnavi .navigation ul li a:hover {
+    color: #b81f17 !important;
 }
 
 /* Sub Navigation */
@@ -527,7 +513,7 @@ h3.bottom_topcontents {
 .news_einsenden_form .submit,
 #geizhals #gh_searchbox .gh_suchen_bt,
 .rBxForm1 .submit,
-.rightBx form.geizhals_search input[type=submit],
+.rightBx form.geizhals_search input[type="submit"],
 .centForm2 .submit,
 .box_news_einsenden input.submit,
 .headerR .button {
@@ -544,7 +530,7 @@ h3.bottom_topcontents {
 .news_einsenden_form .submit:hover,
 #geizhals #gh_searchbox .gh_suchen_bt:hover,
 .rBxForm1 .submit:hover,
-.rightBx form.geizhals_search input[type=submit]:hover,
+.rightBx form.geizhals_search input[type="submit"]:hover,
 .centForm2 .submit:hover,
 .box_news_einsenden input.submit:hover,
 .headerR .button:hover {
@@ -757,7 +743,8 @@ input.inputbox {
     text-transform: uppercase;
 }
 
-#geizhals .box10 ol, #geizhals .box10 ul {
+#geizhals .box10 ol,
+#geizhals .box10 ul {
     background: #3c4043 !important;
     border: 1px solid #3c4043;
     border-radius: 5px;
@@ -768,7 +755,8 @@ input.inputbox {
 
 /* Downloads */
 
-.generic_box.with_timestamp dfn, li.with_timestamp dfn {
+.generic_box.with_timestamp dfn,
+li.with_timestamp dfn {
     background: 0 0;
     position: relative;
     top: 0;
@@ -840,7 +828,6 @@ input.inputbox {
 #footer .search li a {
     font-weight: normal;
 }
-
 
 /* TODO
 
