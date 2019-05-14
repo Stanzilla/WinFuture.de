@@ -94,6 +94,9 @@ ul.bottom_topcontents li {
     border: 1px solid #3c4043;
 }
 
+.VR_1 .ob_org_header,
+.AR_1 .ob_org_header,
+.AR_2 .ob_org_header,
 .centerTitle,
 .comment_write_form span,
 #news_content h2,
@@ -226,6 +229,7 @@ a.snippet_ticker div.topteaser {
 }
 
 /* Flame Icon Boxen */
+
 .tab_flame,
 .rightBxFlameIcon {
     background: url(https://i.imgur.com/iKJXpBc.png) no-repeat;
@@ -233,6 +237,7 @@ a.snippet_ticker div.topteaser {
 }
 
 /* WF Icon Boxen */
+
 .rightBxWinFutureIcon {
     background: url(https://i.imgur.com/XJR1rdh.png) no-repeat;
 }
@@ -268,11 +273,13 @@ a.snippet_ticker div.topteaser {
 }
 
 /* Right Box Green */
+
 .right_greenBx {
     border-color: #88b740;
 }
 
 /* Right Box Orange */
+
 .right_orangeBx {
     border-color: #febf22; /* #fddd9d; */
 }
@@ -587,7 +594,7 @@ h3.bottom_topcontents {
 }
 
 .comment_write_form a.netiquette {
-    margin-left: 314px;
+    margin-left: 296px;
     float: none;
     display: inline-block;
 }
@@ -807,6 +814,7 @@ li.with_timestamp dfn {
 .starLink {
     background: url(https://i.imgur.com/bUPmlqp.png) left no-repeat;
 }
+
 /* Footer */
 
 #footer {
