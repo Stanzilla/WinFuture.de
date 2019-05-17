@@ -77,7 +77,10 @@ ul.bottom_topcontents li {
     text-decoration: underline;
     color: #dfe0e0 !important;
 }
+.primary_content h1,
 .primary_content h2,
+.primary_content h3,
+.primary_content h4,
 .newsTicker li .date {
     color: #999;
 }
@@ -150,6 +153,7 @@ a.snippet_ticker div.topteaser {
 #rightWrap .metadata_box div.head::after {
     content: "Über diese News";
     text-transform: uppercase;
+    font-weight: 500 !important;
 }
 
 #rightWrap .metadata_box .rightBxIn ul {
@@ -205,6 +209,10 @@ a.snippet_ticker div.topteaser {
     border-bottom: 1px solid #3c4043;
     font-size: 1em !important;
     background: none;
+}
+
+.rightBx h3 {
+    font-weight: 500 !important;
 }
 
 .newsList1 li a {
@@ -644,6 +652,12 @@ h3.bottom_topcontents {
     line-height: 22px;
 }
 
+.komsys_hlf .komsys_h span,
+.komsys_hlf .komsys_h strong,
+.komsys_hlf .komsys_h span a {
+    color: #121212 !important;
+}
+
 .komsys_t {
     background: #3c4043;
     border: 1px solid #3c4043 !important;
@@ -857,6 +871,15 @@ li.with_timestamp dfn {
     padding-bottom: 5px; /* TODO Backport */
 }
 
+/* Warning Box */
+
+.warning_box {
+    background: #3c4043;
+    border-radius: 5px;
+    border: 1px solid #3c4043;
+
+}
+
 /* Tipp Einsenden */
 
 .news_einsenden_form .clearB_w label,
@@ -893,5 +916,6 @@ li.with_timestamp dfn {
 /* TODO
 
 https://winfuture.de/news,108898.html Neue Amazon Bilder Box, Jetzt als Amazon Blitzangebot Box
-
+https://winfuture.de/news,108942.html ich empfehle box
+https://winfuture.de/mywinfuture_aktualisieren.html
 */
