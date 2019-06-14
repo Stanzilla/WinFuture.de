@@ -11,6 +11,9 @@ text timestamp #999
 
 */
 
+@import url("solid.min.css");
+@import url("brands.min.css");
+
 body {
     background: #121212 !important;
     border-color: #3c4043 !important;
