@@ -792,7 +792,10 @@ div.tags div a:hover {
     background-color: #dfe0e0;
     color: #3c4043 !important;
 }
-
+div.tags div a.highlight{
+    color: black !important;
+    background-color: #dfe0e0 !important;
+}
 /* Backlinks Box */
 .newsList7 {
     border-radius: 5px;
