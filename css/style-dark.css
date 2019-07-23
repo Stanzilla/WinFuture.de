@@ -142,7 +142,10 @@ a.snippet_ticker h2 {
 a.snippet_ticker div.topteaser {
     color: #dfe0e0;
 }
-
+.topteaser a:hover {
+    background: #3c4043;
+    border-bottom: 1px dotted #dfe0e0;
+}
 /* News Info Box */
 #rightWrap .metadata_box div.head {
     background: none;
