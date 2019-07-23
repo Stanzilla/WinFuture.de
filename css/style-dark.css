@@ -764,6 +764,41 @@ input.inputbox {
     border-radius: 5px;
 }
 
+/* Tags Box */
+div.tags div a {
+    display: inline-block;
+    background: #3c4043;
+    color: #dfe0e0;
+    border-radius: 5px;
+    border: 1px solid #144166;
+    border-color: #dfe0e0;
+    padding: 3px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+}
+div.tags div a:hover {
+    background-color: #dfe0e0;
+    color: #3c4043 !important;
+}
+
+/* Backlinks Box */
+.newsList7 {
+    border-radius: 5px;
+    border: 1px solid #dfe0e0;
+}
+
+.newsList7 em {
+    display: none; /* TODO: Remove when https://i.wfcdn.de/5/up-arrow.png is fixed */
+}
+
+.centForm_backlinks {
+    color: #dfe0e0;
+
+}
+
 /* Preisvergleich Box */
 
 .p_widget {
