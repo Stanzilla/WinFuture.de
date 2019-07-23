@@ -943,6 +943,11 @@ li.with_timestamp dfn {
     background: #121212;
 }
 
+/* Amazon Blitzangebote Box */
+#rightWrap .amazon_blitzangebote div.head {
+    background: none;
+}
+
 /* Footer */
 
 #footer {
