@@ -242,7 +242,6 @@ a.snippet_ticker div.topteaser {
 }
 
 /* WF Icon Boxen */
-
 .rightBxWinFutureIcon {
     background: url(https://i.imgur.com/XJR1rdh.png) no-repeat;
 }
@@ -978,6 +977,22 @@ li.with_timestamp dfn {
 /* Amazon Blitzangebote Box */
 #rightWrap .amazon_blitzangebote div.head {
     background: none;
+}
+
+/* Notebeooks Billiger Special
+TODO: Hover background-color kommt aus dem JavaScript
+
+*/
+
+table.dataTable tbody tr{
+    background: none;
+}
+div.a_deal .geizhals_head,
+div.amazon_deal .geizhals_head,
+.dataTables_info,
+.dataTables_wrapper .dataTables_filter,
+table.deals_table thead tr th {
+    color: #dfe0e0 !important;
 }
 
 /* Footer */
