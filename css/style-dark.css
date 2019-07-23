@@ -816,7 +816,7 @@ div.tags div a:hover {
 }
 
 .p_widget tabs {
-    border-color: black;
+    border-color: #121212;
 }
 
 .p_widget .title a {
@@ -824,7 +824,6 @@ div.tags div a:hover {
 }
 
 /* Preisvergleich Seite */
-
 #geizhals #ghbody #gh_searchform {
     background-image: none;
     /* border: 1px solid #dfe0e0;
@@ -834,7 +833,31 @@ div.tags div a:hover {
     border-radius: 0px;
     border-bottom: 1px solid #dfe0e0;
 }
+#geizhals #gh_artbox div.arthdr,
+#geizhals #gh_artbox #gh_proddesc_left #gh_proddesc,
+#geizhals #gh_artbox #monav span.monav_disabled, #geizhals #gh_artbox #monav span.monav {
+    background-image: none;
+}
 
+.gh_gradient0 {
+    background: #121212;
+}
+
+#ghbody .av_l {
+    color: #999;
+}
+
+#ghbody .av_k {
+    color: #999;
+}
+
+#geizhals #ghbody .av_e, #ghbody .gh_offerList a {
+    color: #121212 !important;
+}
+
+h1.arthdr .primary_content h2 span, .primary_content h1 span {
+    color: white !important;
+}
 #geizhals #gh_searchbox {
     padding: 0 10px !important;
 }
@@ -859,7 +882,6 @@ div.tags div a:hover {
     border-top-right-radius: 0px;
     padding-left: 30px;
 }
-
 /* Downloads */
 
 .generic_box.with_timestamp dfn,
