@@ -139,21 +139,8 @@ a.snippet_ticker div.topteaser {
 }
 
 /* News Info Box */
-
 #rightWrap .metadata_box div.head {
-    background: none; /* TODO backport */
-    background-color: #2f3136 !important;
-    height: 22px;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 9px 10px 0;
-    margin: 0;
-}
-
-#rightWrap .metadata_box div.head::after {
-    content: "Über diese News";
-    text-transform: uppercase;
-    font-weight: 500 !important;
+    background: none;
 }
 
 #rightWrap .metadata_box .rightBxIn ul {
