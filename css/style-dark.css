@@ -101,11 +101,16 @@ ul.bottom_topcontents li {
 .VR_1 .ob_org_header,
 .AR_1 .ob_org_header,
 .AR_2 .ob_org_header,
+.SF_2.ob-strip-layout .ob-widget-header,
 .comment_write_form span,
 h2.subnavigation,
 #header .navigation ul#breadcrumb li span {
     color: #dfe0e0 !important;
     text-transform: uppercase;
+}
+
+.SF_4.ob-widget .ob-widget-section .ob-dynamic-rec-container .ob-rec-text{
+    color: #dfe0e0 !important;
 }
 
 #news_content h2,
@@ -222,11 +227,11 @@ a.snippet_ticker div.topteaser {
     background-image: none !important;
     color: #dfe0e0 !important;
 }
-/*
-.rightBx .rightBxIn div.htmlBx {
-    margin-left: 0px;
+
+.generic_box .rightBxIn div.htmlBx .p_widget {
+    margin-left: -10px;
 }
-*/
+
 .centerWrap_no_boxes .primary_content {
     width: 985px;
 }
@@ -484,6 +489,7 @@ span.exclusive a {
 .topnews div.news670 img,
 .SF_1.ob-widget .ob-rec-image-container img.ob-rec-image,
 .SF_1.ob-widget .ob-rec-image-container .ob-rec-rtb-image,
+.SF_4.ob-widget .ob-widget-section .ob-dynamic-rec-container .ob-rec-image-container,
 .VR_1 .strip-img,
 .AR_1 .strip-img,
 .AR_2 .strip-img,
@@ -509,6 +515,7 @@ div.right_video div:hover,
 .topnews div.news670 img:hover,
 .SF_1.ob-widget .ob-rec-image-container img.ob-rec-image:hover,
 .SF_1.ob-widget .ob-rec-image-container .ob-rec-rtb-image:hover,
+.SF_4.ob-widget .ob-widget-section .ob-dynamic-rec-container .ob-rec-image-container:hover,
 .VR_1 .strip-img:hover,
 .AR_1 .strip-img:hover,
 .AR_2 .strip-img:hover,
