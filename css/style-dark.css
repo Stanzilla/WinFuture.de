@@ -842,6 +842,11 @@ div.tags div a:hover {
     background-image: none;
 }
 
+#geizhals #gh_artbox div.arthdr {
+    border: none;
+}
+
+
 .gh_gradient0 {
     background: #121212;
 }
