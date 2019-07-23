@@ -273,7 +273,7 @@ a.snippet_ticker div.topteaser {
 .rightBx_btm {
     background: #2f3136 !important;
     border-left: 1px solid #3c4043;
-    border-bottom: 1px solid #121212;
+    border-bottom: 1px solid #3c4043;
     border-right: 1px solid #3c4043;
     border-radius: 5px;
     border-top-left-radius: 0px;
@@ -399,6 +399,10 @@ ul.orange_teaser_tabs {
 #header #topnavi .navigation ul li a:hover {
     color: #b81f17 !important;
     background: #2f3136 !important;
+}
+
+#header #topnavi #mainNavigation ul li ul.foldnavi li.first a:hover {
+    background: none !important;
 }
 
 /* Sub Navigation */
