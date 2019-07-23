@@ -222,9 +222,19 @@ a.snippet_ticker div.topteaser {
     background-image: none !important;
     color: #dfe0e0 !important;
 }
+/*
+.rightBx .rightBxIn div.htmlBx {
+    margin-left: 0px;
+}
+*/
+.centerWrap_no_boxes .primary_content {
+    width: 985px;
+}
+.centerWrap_no_boxes #rightWrap .rightBx {
+    width: 293px;
+}
 
 /* Flame Icon Boxen */
-
 .tab_flame,
 .rightBxFlameIcon {
     background: url(https://i.imgur.com/iKJXpBc.png) no-repeat;
