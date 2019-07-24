@@ -166,7 +166,7 @@ a.snippet_ticker div.topteaser {
 .generic_box li a,
 .newsList6 li,
 .news_rubriken li a {
-    background: url(https://i.imgur.com/SwuWh7q.gif) left -90px no-repeat;
+    background: url(https://i.imgur.com/SwuWh7q.gif) left -90px no-repeat; /* ../images/arrows.gif */
 }
 
 /* broken, lieber neue bilder
@@ -245,13 +245,13 @@ a.snippet_ticker div.topteaser {
 /* Flame Icon Boxen */
 .tab_flame,
 .rightBxFlameIcon {
-    background: url(https://i.imgur.com/iKJXpBc.png) no-repeat;
+    background: url(https://i.imgur.com/iKJXpBc.png) no-repeat; /* ../images/flame.png */
     top: 0px;
 }
 
 /* WF Icon Boxen */
 .rightBxWinFutureIcon {
-    background: url(https://i.imgur.com/XJR1rdh.png) no-repeat;
+    background: url(https://i.imgur.com/XJR1rdh.png) no-repeat; /* ../images/wf_logo.png */
 }
 .editors_pick_head,
 .rightBx h3 {
@@ -343,11 +343,11 @@ ul.orange_teaser_tabs {
 /* Header */
 
 #header_logo_link {
-    background: url(https://i.imgur.com/L2T7cOY.png);
+    background: url(https://i.imgur.com/L2T7cOY.png); /* ../images/header_left.png */
 }
 
 .headerR {
-    background: url(https://i.imgur.com/ALq3nLk.png);
+    background: url(https://i.imgur.com/ALq3nLk.png); /* ../images/header_right.png */
 }
 
 .header_login {
@@ -565,7 +565,7 @@ h3.bottom_topcontents {
 .centForm2 .submit,
 .box_news_einsenden input.submit,
 .headerR .button {
-    background: url(https://i.imgur.com/ItjdRpA.png) center no-repeat #2f3136;
+    background: url(https://i.imgur.com/ItjdRpA.png) center no-repeat #2f3136; /* ../images/button_arrow.png */
     color: #dfe0e0;
     border-radius: 5px;
     border: 1px solid #dfe0e0;
@@ -592,7 +592,7 @@ h3.bottom_topcontents {
 .centForm2 .submit:hover,
 .box_news_einsenden input.submit:hover,
 .headerR .button:hover {
-    background:  url(https://i.imgur.com/ItjdRpA.png) center no-repeat #225790;
+    background:  url(https://i.imgur.com/ItjdRpA.png) center no-repeat #225790; /* ../images/button_arrow.png */
 }
 
 .headerR .button::after {
@@ -705,7 +705,7 @@ h3.bottom_topcontents {
 form.komsys_btn_r input,
 .komsys_btn_unfold,
 .komsys_btn_e {
-    background-image: url(https://i.imgur.com/IFhi2f4.png);
+    background-image: url(https://i.imgur.com/IFhi2f4.png); /* ../images/komsys_sprite.png */
 }
 
 .komsys_btn_unfold,
@@ -978,7 +978,7 @@ li.with_timestamp dfn {
 }
 
 .starLink {
-    background: url(https://i.imgur.com/bUPmlqp.png) left no-repeat;
+    background: url(https://i.imgur.com/bUPmlqp.png) left no-repeat; /* ../images/star.png */
 }
 
 /* User Profile */
