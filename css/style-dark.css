@@ -77,6 +77,7 @@ ul.bottom_topcontents li {
     text-decoration: underline;
     color: #dfe0e0 !important;
 }
+
 .primary_content h1,
 .primary_content h2,
 .primary_content h3,
@@ -109,7 +110,7 @@ h2.subnavigation,
     text-transform: uppercase;
 }
 
-.SF_4.ob-widget .ob-widget-section .ob-dynamic-rec-container .ob-rec-text{
+.SF_4.ob-widget .ob-widget-section .ob-dynamic-rec-container .ob-rec-text {
     color: #dfe0e0 !important;
 }
 
@@ -234,10 +235,10 @@ a.snippet_ticker div.topteaser {
 .generic_box .rightBxIn div.htmlBx .p_widget {
     margin-left: -10px;
 }
-
 .centerWrap_no_boxes .primary_content {
     width: 985px;
 }
+
 .centerWrap_no_boxes #rightWrap .rightBx {
     width: 293px;
 }
@@ -253,6 +254,7 @@ a.snippet_ticker div.topteaser {
 .rightBxWinFutureIcon {
     background: url(https://i.imgur.com/XJR1rdh.png) no-repeat; /* ../images/wf_logo.png */
 }
+
 .editors_pick_head,
 .rightBx h3 {
     background-color: #2f3136 !important;
@@ -595,11 +597,12 @@ h3.bottom_topcontents {
     background:  url(https://i.imgur.com/ItjdRpA.png) center no-repeat #225790; /* ../images/button_arrow.png */
 }
 
+/* geht nicht
 .headerR .button::after {
-    /* geht nicht */
     content: "SDDDDDDD";
     color: #dfe0e0 !important;
 }
+*/
 
 /* CSS Button */
 
@@ -717,13 +720,14 @@ form.komsys_btn_r input,
 .komsys_btn_e {
     height: 8px !important;
 }
+
 .centForm11 label,
 .comment_write_form .centForm12 div label {
     color: #dfe0e0;
 }
 
 /* Input Boxen */
-
+.deals_table_container .dataTables_filter input,
 input[type="text"],
 textarea {
     transition: all 0.3s ease-in-out;
@@ -731,7 +735,7 @@ textarea {
     border: 1px solid #dfe0e0;
     background: #2f3136;
 }
-
+.deals_table_container .dataTables_filter input:focus,
 input[type="text"]:focus,
 textarea:focus {
     box-shadow: 0 0 5px #3c4043;
@@ -1034,14 +1038,12 @@ li.with_timestamp dfn {
     background: none;
 }
 
-/* Notebeooks Billiger Special
-TODO: Hover background-color kommt aus dem JavaScript
-
-*/
+/* Notebeooks Billiger Special */
 
 table.dataTable tbody tr{
     background: none;
 }
+
 div.a_deal .geizhals_head,
 div.amazon_deal .geizhals_head,
 .dataTables_info,
@@ -1050,6 +1052,13 @@ table.deals_table thead tr th {
     color: #dfe0e0 !important;
 }
 
+.deals_table_container {
+    width: 975px;
+}
+
+.deals_table_container .dataTables_filter {
+    right: 10px;
+}
 /* Footer */
 
 #footer {
