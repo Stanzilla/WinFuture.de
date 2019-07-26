@@ -1117,6 +1117,9 @@ table.deals_table thead tr th {
     color: #121212;
 }
 
+div.coming_contents,
+#centerWrap > div > div.content_wrap.mb40 > div > h3,
+#centerWrap > div > div.content_wrap.mb40 > div > ul > li > a,
 div#pins_container #pins .row,
 .admin_link:hover {
     color: #121212 !important;
@@ -1132,6 +1135,7 @@ table.statistics tr.odd td {
     color: #3c4043;
 }
 
+.hc_trend_container,
 table.statistics tr td a {
     color: #dfe0e0 !important;
 }
