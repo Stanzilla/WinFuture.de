@@ -913,9 +913,19 @@ div.a_deal .gradient {
     background: linear-gradient(to bottom, #fff0 0, #3c4043 100%) !important;
 }
 
+div.a_deal strong.start,
+div.amazon_deal strong.start {
+    background: #e1f5e1;
+    color: #121212;
+}
+
 div.a_deal strong {
     color: #dfe0e0;
     padding: 5px;
+}
+
+.a_deal_admin {
+    background: #121212;
 }
 
 #geizhals .box10 .box10h {
@@ -958,7 +968,9 @@ li.with_timestamp dfn {
     font-style: normal;
     border: none;
 }
-
+div.download_bit_info a {
+    color: #2f3136 !important;
+}
 /* Infografiken */
 
 .infografik_list .column .infografik_entry {
@@ -1085,6 +1097,61 @@ table.deals_table thead tr th {
 .deals_table_container .dataTables_filter {
     right: 10px;
 }
+
+/* Admin Area */
+#folded_comments_list div,
+#folded_comments_list div a,
+.admin_notes_box .note,
+.admin_notes_box .note a {
+    color: #121212 !important;
+}
+
+#folded_comments_list div,
+.admin_notes_box .note {
+    border-radius: 5px;
+}
+
+.admin_notes_box .note .close {
+    top: 2px;
+    right: 5px;
+    color: #121212;
+}
+
+div#pins_container #pins .row,
+.admin_link:hover {
+    color: #121212 !important;
+}
+
+table.statistics {
+    background: #3c4043;
+    color: #dfe0e0;
+}
+
+table.statistics tr.odd td {
+    background: #dfe0e0 !important;
+    color: #3c4043;
+}
+
+table.statistics tr td a {
+    color: #dfe0e0 !important;
+}
+
+#logList,
+#logList a,
+table.statistics tr.odd td a {
+    color: #3c4043 !important;
+}
+
+#all-teaser-pictures .preview {
+    color: #dfe0e0 !important;
+}
+
+.newsstatistik table tr.even td {
+    background: #3c4043;
+    color: #dfe0e0;
+}
+
+
 /* Footer */
 
 #footer {
