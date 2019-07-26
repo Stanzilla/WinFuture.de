@@ -902,9 +902,11 @@ h1.arthdr .primary_content h2 span, .primary_content h1 span {
 #geizhals #gh_searchbox {
     padding: 0 10px !important;
 }
+
 div.a_deal {
     background: #2f3136;
     border-radius: 5px;
+    border: 1px solid #e1f5e1;
 }
 
 div.a_deal .gradient {
