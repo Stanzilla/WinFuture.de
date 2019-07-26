@@ -823,15 +823,35 @@ div.tags div a.highlight{
     /* background: #2f3136; */
     background: #3c4043;
     color: #dfe0e0;
-    padding: 5px;
+    border-radius: 5px;
+}
+
+.p_widget .tabs .tab.active,
+.p_widget .tabs .tab.hover  {
+    border-bottom: 1px solid #2f3136 !important;
 }
 
 .p_widget tabs {
     border-color: #121212;
+    margin-left: 5px;
+}
+
+.p_widget .tab_contents {
+    background: #2f3136 !important;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+div.p_widget.mt0.nointelliTXT {
+    width: 650px;
 }
 
 .p_widget .title a {
     margin-left: 5px;
+}
+
+.amazon_bar a {
+    color: #3c4043 !important;
 }
 
 .p_widget .shop:hover {
