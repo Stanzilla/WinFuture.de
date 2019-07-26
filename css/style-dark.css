@@ -834,6 +834,11 @@ div.tags div a.highlight{
     margin-left: 5px;
 }
 
+.p_widget .shop:hover {
+    background-color: #dfe0e0;
+    color: #3c4043 !important;
+}
+
 /* Preisvergleich Seite */
 #geizhals #ghbody #gh_searchform {
     background-image: none;
