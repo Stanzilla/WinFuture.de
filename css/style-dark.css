@@ -1167,6 +1167,16 @@ ul.tagit {
     margin-left: -5px;
 }
 
+/*  Handy Vertrag Vergleich */
+
+.tx-vergleich {
+    color: #121212;
+    background: #dfe0e0;
+}
+.tx-handytarife:hover
+{
+    color: #3c4043;
+}
 /* Footer */
 
 #footer {
