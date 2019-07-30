@@ -339,7 +339,7 @@ ul.orange_teaser_tabs {
 .green_teaser_tabs li:hover,
 .orange_teaser_tabs li.active,
 .orange_teaser_tabs li:hover {
-    border-bottom-color: #3c4043;
+    border-bottom: 1px solid #3c4043;
 }
 
 /* Header */
