@@ -1071,6 +1071,10 @@ div.download_bit_info a {
     background: #121212;
 }
 
+#mywf_form > div.mb10.half_left {
+   clear: both;
+}
+
 /* Amazon Blitzangebote Box */
 #rightWrap .amazon_blitzangebote div.head {
     background: none;
@@ -1155,6 +1159,13 @@ table.statistics tr.odd td a {
     color: #dfe0e0;
 }
 
+ul.tagit {
+    background: #3c4043;
+    color: #dfe0e0;
+    border-radius: 5px;
+    border: 1px solid #dfe0e0;
+    margin-left: -5px;
+}
 
 /* Footer */
 
