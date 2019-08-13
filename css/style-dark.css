@@ -1209,6 +1209,12 @@ ul.tagit {
     color: #121212;
 }
 
+/* Impressum */
+.skyBg_txt {
+    background-color: #3c4043 !important;
+}
+
+
 /* Footer */
 
 #footer {
