@@ -1195,6 +1195,18 @@ ul.tagit {
 {
     color: #3c4043;
 }
+
+/* Update Pack */
+.updatepack .download_button a {
+    color: #121212 !important;
+}
+
+/* Newssuche */
+
+.wrmE {
+    color: #121212;
+}
+
 /* Footer */
 
 #footer {
