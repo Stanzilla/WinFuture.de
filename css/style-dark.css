@@ -1084,12 +1084,12 @@ div.download_bit_info a {
     border-top: 1px solid #3c4043;
     border-left: 1px solid #3c4043;
     border-right: 1px solid #3c4043;
-    background: #383838;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    background: #3c4043;
 }
 
-.myWin_small_box .clearB span{
+.myWin_small_box .clearB span {
     background: #121212;
 }
 
