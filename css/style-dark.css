@@ -973,8 +973,21 @@ li.with_timestamp dfn {
     font-style: normal;
     border: none;
 }
+
+div.download_bit_info {
+    margin-top: 8px;
+}
+
+.warning_box > div.download_bit_info {
+    margin-top: 0px;
+}
+
 div.download_bit_info a {
     color: #2f3136 !important;
+}
+.warning_box > div.download_bit_info,
+.warning_box > div.download_bit_info a {
+    color: white !important;
 }
 /* Infografiken */
 
