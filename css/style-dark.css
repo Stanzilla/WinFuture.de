@@ -815,6 +815,11 @@ div.tags div a.highlight{
 
 }
 
+/* Windows Specials Box */
+.special_teaser ul, .special_teaser .last {
+    background: none !important;
+}
+
 /* Preisvergleich Box */
 
 .p_widget {
