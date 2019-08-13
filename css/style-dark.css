@@ -1089,7 +1089,7 @@ div.download_bit_info a {
     background: #121212;
 }
 
-#mywf_form > div.mb10.half_left {
+#mywf_form > .half_left {
    clear: both;
 }
 
