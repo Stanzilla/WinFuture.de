@@ -1216,6 +1216,67 @@ ul.tagit {
     background-color: #3c4043 !important;
 }
 
+/* Login / Register Flow */
+.registerform_head {
+    color: #121212;
+}
+.line-thru:before {
+background-color: #3c4043;
+}
+.anmelden strong {
+    color: #dfe0e0;
+}
+.error_box,
+.success_box, .green_box {
+    color: #121212;
+}
+.centForm11 a.newslink:hover, #dialog-modal a.newslink:hover,
+.arrow:hover {
+    color: #121212 !important;
+}
+.centForm11 a.newslink, #dialog-modal a.newslink {
+    color: #dfe0e0 !important;
+}
+.centForm11.registerform {
+    text-align: left;
+    background-image: none;
+}
+
+/* Windows 7 Special */
+.w7_special {
+    color: #121212 !important;
+}
+
+.w7_special a {
+     color: #121212 !important;
+}
+.w7_special .weitere_link {
+    color: #dfe0e0 !important;
+}
+#w7_downloads,
+#w7_faq,
+#w7_news {
+    background: #dfe0e0;
+    color: #121212;
+}
+#w7_downloads .weitere_link,
+#w7_faq .weitere_link,
+#w7_news .weitere_link {
+    color: #121212!important;
+}
+
+/* Archiv */
+.archive_calendar a {
+    color: #121212 !important;
+}
+.archive_calendar .calendar_box.month a {
+    color: #dfe0e0 !important;
+}
+.archive_calendar .month_links span,
+.archive_calendar .calendar_box h2 {
+    background-color: #dfe0e0;
+    color: #121212;
+}
 
 /* Footer */
 
