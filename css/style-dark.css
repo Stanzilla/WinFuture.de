@@ -345,11 +345,11 @@ ul.orange_teaser_tabs {
 /* Header */
 
 #header_logo_link {
-    background: url(https://i.imgur.com/L2T7cOY.png); /* ../images/header_left.png */
+    background: url(../images/header_left_dark.png); /* ../images/header_left.png */
 }
 
 .headerR {
-    background: url(https://i.imgur.com/ALq3nLk.png); /* ../images/header_right.png */
+    background: url(../images/header_right_dark.png); /* ../images/header_right.png */
 }
 
 .header_login {
