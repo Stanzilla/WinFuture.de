@@ -87,7 +87,6 @@ ul.bottom_topcontents li {
 }
 
 /* Main Content */
-
 .content_wrap h1.centerTitle {
     border-bottom: 1px solid #3c4043;
     font-size: 1em;
@@ -129,7 +128,6 @@ h3.bottom_topcontents {
 }
 
 /* News Ticker Box */
-
 a.snippet_ticker:visited h2 {
     font-size: 16px;
     color: #369;
@@ -143,10 +141,12 @@ a.snippet_ticker h2 {
 a.snippet_ticker div.topteaser {
     color: #dfe0e0;
 }
+
 .topteaser a:hover {
     background: #3c4043;
     border-bottom: 1px dotted #dfe0e0;
 }
+
 /* News Info Box */
 #rightWrap .metadata_box div.head {
     background: none;
@@ -170,12 +170,6 @@ a.snippet_ticker div.topteaser {
     background: url(https://i.imgur.com/SwuWh7q.gif) left -90px no-repeat; /* ../images/arrows.gif */
 }
 
-/* broken, lieber neue bilder
-   .rightBxIn ul li a::before {
-      content: ">";
-      color: #dfe0e0;
-  }
-  */
 .rightBxIn ul li {
     border-bottom: none;
 }
@@ -186,7 +180,6 @@ a.snippet_ticker div.topteaser {
 }
 
 /* News Info Box Ende */
-
 .magazin_teaser li,
 .special_teaser li {
     background: none;
@@ -287,13 +280,11 @@ a.snippet_ticker div.topteaser {
 }
 
 /* Right Box Green */
-
 .right_greenBx {
     border-color: #88b740;
 }
 
 /* Right Box Orange */
-
 .right_orangeBx {
     border-color: #febf22; /* #fddd9d; */
 }
@@ -343,7 +334,6 @@ ul.orange_teaser_tabs {
 }
 
 /* Header */
-
 #header_logo_link {
     background: url(../images/header_left_dark.png); /* ../images/header_left.png */
 }
@@ -353,15 +343,16 @@ ul.orange_teaser_tabs {
 }
 
 .header_login {
-    color: #121212 !important;
+    color: #d2e0ed !important;
+    text-shadow: #000 1px 1px 0;
 }
 
 #header .header_login a {
-    color: #121212 !important;
+    color: #d2e0ed !important;
+    text-shadow: #000 1px 1px 0;
 }
 
 /* Main Navigation */
-
 #mainNavigation {
     background: #3c4043 !important;
     border-left: 1px solid #d2e0ed;
@@ -376,7 +367,6 @@ ul.orange_teaser_tabs {
 }
 
 /* Fold Navi aka "mehr" Menü */
-
 #header #topnavi #mainNavigation ul li ul.foldnavi {
     border: none;
     background: #2f3136;
@@ -412,7 +402,6 @@ ul.orange_teaser_tabs {
 }
 
 /* Sub Navigation */
-
 #subNavigation {
     background: #2f3136 !important;
     border-left: 1px solid #d2e0ed;
@@ -463,10 +452,6 @@ span.exclusive a {
     color: #2f3136 !important;
 }
 
-/* .tabs {
-    background: #3c4043;
-} */
-
 .mt10 {
     margin-top: 0px;
 }
@@ -478,16 +463,17 @@ span.exclusive a {
     margin-bottom: 10px;
     padding-left: 10px;
 }
+
 .content_wrap .mt20 {
     padding-left: 0px !important;
 }
+
 .tabs .tab em {
     /* background: url(https://i.wfcdn.de/5/tabs.gif) 0 -52px #F0F6FC no-repeat;  problem im gif, hintergrund weiß */
     background: none;
 }
 
 /* Image Borders */
-
 .bottom_topcontents li a img,
 .topnews img,
 .topteaser img,
@@ -598,15 +584,7 @@ h3.bottom_topcontents {
     background:  url(https://i.imgur.com/ItjdRpA.png) center no-repeat #225790; /* ../images/button_arrow.png */
 }
 
-/* geht nicht
-.headerR .button::after {
-    content: "SDDDDDDD";
-    color: #dfe0e0 !important;
-}
-*/
-
 /* CSS Button */
-
 .css_button {
     display: inline-block;
     background: #3c4043;
@@ -621,7 +599,6 @@ h3.bottom_topcontents {
 }
 
 /* Comment System */
-
 #comments_box {
     width: calc(100% - 10px);
 }
@@ -738,6 +715,7 @@ textarea {
     border: 1px solid #dfe0e0;
     background: #2f3136;
 }
+
 .deals_table_container .dataTables_filter input:focus,
 input[type="text"]:focus,
 textarea:focus {
@@ -747,7 +725,6 @@ textarea:focus {
 }
 
 /* News Einsenden Box */
-
 #fs,
 .inputbox {
     border: 1px solid #dfe0e0;
@@ -774,7 +751,6 @@ input.inputbox {
 }
 
 /* News nach Rubriken Box */
-
 .rightBx.generic_box .rightBxIn ul.borderless_tag_arrow li a {
     background: #dfe0e0;
     border-radius: 5px;
@@ -795,10 +771,12 @@ div.tags div a {
     height: 20px;
     line-height: 20px;
 }
+
 div.tags div a:hover {
     background-color: #dfe0e0;
     color: #3c4043 !important;
 }
+
 div.tags div a.highlight{
     color: black !important;
     background-color: #dfe0e0 !important;
@@ -825,7 +803,6 @@ div.tags div a.highlight{
 }
 
 /* Preisvergleich Box */
-
 .p_widget {
     border: 1px solid #3c4043;
     /* background: #2f3136; */
@@ -886,7 +863,6 @@ div.p_widget.mt0.nointelliTXT {
 #geizhals #gh_artbox div.arthdr {
     border: none;
 }
-
 
 .gh_gradient0 {
     background: #121212;
@@ -957,8 +933,8 @@ div.a_deal strong {
     border-top-right-radius: 0px;
     padding-left: 30px;
 }
-/* Downloads */
 
+/* Downloads */
 .generic_box.with_timestamp dfn,
 li.with_timestamp dfn {
     background: 0 0;
@@ -989,12 +965,13 @@ div.download_bit_info {
 div.download_bit_info a {
     color: #2f3136 !important;
 }
+
 .warning_box > div.download_bit_info,
 .warning_box > div.download_bit_info a {
     color: white !important;
 }
-/* Infografiken */
 
+/* Infografiken */
 .infografik_list .column .infografik_entry {
     background: #3c4043;
     border-radius: 5px;
@@ -1018,7 +995,6 @@ div.download_bit_info a {
 }
 
 /* Neueste Screenshots Box */
-
 .neueste_screenshots {
     background: #3c4043;
     border-radius: 5px;
@@ -1041,7 +1017,6 @@ div.download_bit_info a {
 }
 
 /* Warning Box */
-
 .warning_box {
     background: #3c4043;
     border-radius: 5px;
@@ -1050,7 +1025,6 @@ div.download_bit_info a {
 }
 
 /* Tipp Einsenden */
-
 .news_einsenden_form .clearB_w label,
 .starLink {
     color: #dfe0e0;
@@ -1061,7 +1035,6 @@ div.download_bit_info a {
 }
 
 /* User Profile */
-
 .centerTitle_small {
     border-top: 1px solid #3c4043;
     border-left: 1px solid #3c4043;
@@ -1103,7 +1076,6 @@ div.download_bit_info a {
 }
 
 /* Notebeooks Billiger Special */
-
 table.dataTable tbody tr{
     background: none;
 }
@@ -1190,13 +1162,12 @@ ul.tagit {
 }
 
 /*  Handy Vertrag Vergleich */
-
 .tx-vergleich {
     color: #121212;
     background: #dfe0e0;
 }
-.tx-handytarife:hover
-{
+
+.tx-handytarife:hover {
     color: #3c4043;
 }
 
@@ -1206,7 +1177,6 @@ ul.tagit {
 }
 
 /* Newssuche */
-
 .wrmE {
     color: #121212;
 }
@@ -1220,23 +1190,29 @@ ul.tagit {
 .registerform_head {
     color: #121212;
 }
+
 .line-thru:before {
 background-color: #3c4043;
 }
+
 .anmelden strong {
     color: #dfe0e0;
 }
+
 .error_box,
 .success_box, .green_box {
     color: #121212;
 }
+
 .centForm11 a.newslink:hover, #dialog-modal a.newslink:hover,
 .arrow:hover {
     color: #121212 !important;
 }
+
 .centForm11 a.newslink, #dialog-modal a.newslink {
     color: #dfe0e0 !important;
 }
+
 .centForm11.registerform {
     text-align: left;
     background-image: none;
@@ -1250,15 +1226,18 @@ background-color: #3c4043;
 .w7_special a {
      color: #121212 !important;
 }
+
 .w7_special .weitere_link {
     color: #dfe0e0 !important;
 }
+
 #w7_downloads,
 #w7_faq,
 #w7_news {
     background: #dfe0e0;
     color: #121212;
 }
+
 #w7_downloads .weitere_link,
 #w7_faq .weitere_link,
 #w7_news .weitere_link {
@@ -1278,8 +1257,12 @@ background-color: #3c4043;
     color: #121212;
 }
 
-/* Footer */
+/* News Einsenden */
+.send_news_tip label, .send_news_tip strong {
+    color: #dfe0e0;
+}
 
+/* Footer */
 #footer {
     border-top: 1px solid #3c4043 !important;
     border-left: 1px solid #3c4043 !important;
