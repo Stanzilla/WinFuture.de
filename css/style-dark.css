@@ -1264,7 +1264,7 @@ background-color: #3c4043;
 }
 
 /* User Notification Bar */
-#user_notifcation_bar {
+#user_notification_bar .warning_box {
     color: #d2e0ed !important;
     text-shadow: #000 1px 1px 0;
 }
