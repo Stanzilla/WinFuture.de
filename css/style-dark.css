@@ -1279,6 +1279,7 @@ background-color: #3c4043;
 /* Login Modal */
 .centForm11.logindialog {
     background-image: none;
+    text-align: left;
 }
 
 div.line-thru.mt20.mb20 {
