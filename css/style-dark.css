@@ -1267,6 +1267,13 @@ background-color: #3c4043;
 #user_notification_bar .warning_box {
     color: #d2e0ed !important;
     text-shadow: #000 1px 1px 0;
+    border: 1px solid #e5d472;
+    text-align: center;
+    line-height: 14px;
+}
+
+#user_notification_bar .warning_box .css_button {
+    top: 0px;
 }
 
 /* Footer */
