@@ -1263,6 +1263,12 @@ background-color: #3c4043;
     color: #dfe0e0;
 }
 
+/* User Notification Bar */
+.user_notifcation_bar {
+    color: #d2e0ed !important;
+    text-shadow: #000 1px 1px 0;
+}
+
 /* Footer */
 #footer {
     border-top: 1px solid #3c4043 !important;
