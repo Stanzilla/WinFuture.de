@@ -467,7 +467,8 @@ span.exclusive a {
 .content_wrap .mt20 {
     padding-left: 0px !important;
 }
-
+.centerEnd em,
+.centerEnd em.right,
 .tabs .tab em {
     /* background: url(https://i.wfcdn.de/5/tabs.gif) 0 -52px #F0F6FC no-repeat;  problem im gif, hintergrund weiß */
     background: none;
