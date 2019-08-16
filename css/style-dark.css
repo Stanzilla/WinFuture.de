@@ -1276,6 +1276,15 @@ background-color: #3c4043;
     top: 0px;
 }
 
+/* Login Modal */
+.centForm11.logindialog {
+    background-image: none;
+}
+
+.centForm11.logindialog mt20 {
+    padding-left: 0px;
+}
+
 /* Footer */
 #footer {
     border-top: 1px solid #3c4043 !important;
