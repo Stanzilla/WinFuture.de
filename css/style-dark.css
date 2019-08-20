@@ -152,9 +152,9 @@ a.snippet_ticker div.topteaser {
     background: none;
 }
 
-#rightWrap .metadata_box .rightBxIn ul {
+/* #rightWrap .metadata_box .rightBxIn ul {
     padding-top: 10px;
-}
+} */
 
 #rightWrap .metadata_box .rightBxIn ul li b {
     color: #dfe0e0;
