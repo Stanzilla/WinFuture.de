@@ -1021,7 +1021,7 @@ div.download_bit_info a {
 .warning_box {
     background: #3c4043;
     border-radius: 5px;
-    border: 1px solid #3c4043;
+    /* border: 1px solid #3c4043; */
 
 }
 
