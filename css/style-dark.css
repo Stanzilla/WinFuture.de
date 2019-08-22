@@ -1307,6 +1307,20 @@ div.line-thru.mt20.mb20 {
     color: red;
 }
 */
+
+/* Arrow Sprite Replacement */
+.arrow-icon a em,
+#footer .up_left a, #footer .up_right a,
+.generic_box li a,.news_rubriken li a,.newsList6 li,
+#header #topnavi #mainNavigation a.foldnavi em,
+#header #topnavi #mainNavigation ul li ul.foldnavi li.first a em,
+.icon_arrow,
+.arrow,
+.arrow:hover,
+.news_categories span.hl {
+    background-image: url(https://i.imgur.com/pjr4SyM.gif);
+}
+
 /* Footer */
 #footer {
     border-top: 1px solid #3c4043 !important;
