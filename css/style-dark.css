@@ -164,11 +164,13 @@ a.snippet_ticker div.topteaser {
     border: none; /* TODO backport */
 }
 
+/*
 .generic_box li a,
 .newsList6 li,
 .news_rubriken li a {
-    background: url(https://i.imgur.com/SwuWh7q.gif) left -90px no-repeat; /* ../images/arrows.gif */
+    background: url(https://i.imgur.com/SwuWh7q.gif) left -90px no-repeat;  ../images/arrows.gif
 }
+*/
 
 .rightBxIn ul li {
     border-bottom: none;
@@ -392,8 +394,9 @@ ul.orange_teaser_tabs {
     background: #3c4043;
 }
 
-#header #topnavi .navigation ul li a:hover {
-    color: #b81f17 !important;
+#header .navigation ul li.active a, #header .navigation ul li:hover a {
+	text-decoration: none;
+    color: #b81f17;
     background: #2f3136 !important;
 }
 
