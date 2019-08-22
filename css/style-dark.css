@@ -394,10 +394,15 @@ ul.orange_teaser_tabs {
     background: #3c4043;
 }
 
-#header .navigation ul li.active a, #header .navigation ul li:hover a {
-	text-decoration: none;
-    color: #b81f17;
+#header #topnavi .navigation ul li a:hover {
+    color: #b81f17 !important;
+}
+
+#header .navigation ul li.first:hover  {
     background: #2f3136 !important;
+}
+#header .navigation ul li.first:hover a {
+    color: #b81f17 !important;
 }
 
 #header #topnavi #mainNavigation ul li ul.foldnavi li.first a:hover {
