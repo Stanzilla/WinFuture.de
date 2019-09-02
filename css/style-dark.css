@@ -673,6 +673,14 @@ h3.bottom_topcontents {
     color: #121212 !important;
 }
 
+.komsys_hlf .komsys_h,
+.komsys_hlf .komsys_h_c,
+.komsys_hlf .komsys_b_c,
+.komsys_hlf .komsys_b_c .bl,
+.komsys_hlf .komsys_b_c .br {
+    border-style: none !important;
+}
+
 .komsys_t {
     background: #3c4043;
     border: 1px solid #3c4043 !important;
