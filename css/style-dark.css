@@ -227,9 +227,9 @@ a.snippet_ticker div.topteaser {
     color: #dfe0e0 !important;
 }
 
-.generic_box .rightBxIn div.htmlBx .p_widget {
+/* .generic_box .rightBxIn div.htmlBx .p_widget {
     margin-left: -10px;
-}
+} */
 .centerWrap_no_boxes .primary_content {
     width: 985px;
 }
@@ -1335,6 +1335,27 @@ div.line-thru.mt20.mb20 {
 .arrow:hover,
 .news_categories span.hl {
     background-image: url(https://i.imgur.com/l5uVrrZ.gif); /*url(https://i.imgur.com/pjr4SyM.gif); arrows_3.gif */
+}
+
+/* Zebra Tabelle */
+
+table.wftable th {
+    background:#121212;
+    color: #dfe0e0;
+}
+
+table.wftable td, table.wftable th {
+    border: 1px solid #dfe0e0;
+}
+
+table.wftable.wfzebra tr:nth-child(odd) {
+    background:#2f3136;
+    color: #dfe0e0;
+}
+
+table.wftable.wfzebra tr {
+    background:#3c4043;
+    color: #dfe0e0;
 }
 
 /* Footer */
