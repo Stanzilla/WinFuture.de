@@ -861,6 +861,24 @@ div.p_widget.mt0.nointelliTXT {
     color: #3c4043 !important;
 }
 
+.p_widget_group .kopf {
+	background: #3c4043;
+}
+
+.p_widget_group .kopf .group_title {
+	color: #dfe0e0;
+	border: 1px solid #dfe0e0;
+    border-radius: 5px;
+}
+
+.p_widget_group .kopf .group_title.active {
+	background: #2f3136;
+	color: #dfe0e0;
+	text-shadow: 1px 1px 0 #000;
+	border: 1px solid #dfe0e0;
+	box-shadow: 1px 1px 5px #dfe0e0;
+}
+
 /* Preisvergleich Seite */
 #geizhals #ghbody #gh_searchform {
     background-image: none;
