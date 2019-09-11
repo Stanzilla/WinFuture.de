@@ -988,6 +988,10 @@ div.download_bit_info a {
     color: white !important;
 }
 
+li.with_timestamp.dark_bottom {
+    border-bottom: 4px solid #dfe0e0;
+}
+
 /* Infografiken */
 .infografik_list .column .infografik_entry {
     background: #3c4043;
