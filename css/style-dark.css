@@ -715,9 +715,12 @@ form.komsys_btn_r input,
 .komsys_btn_e {
     height: 8px !important;
 }
+
 .komsys_history ins {
     color: #121212;
 }
+
+.centForm label,
 .centForm11 label,
 .comment_write_form .centForm12 div label {
     color: #dfe0e0;
@@ -1231,7 +1234,7 @@ ul.tagit {
 }
 
 .line-thru:before {
-background-color: #3c4043;
+    background-color: #3c4043;
 }
 
 .anmelden strong {
@@ -1378,6 +1381,20 @@ table.wftable.wfzebra tr:nth-child(odd) {
 table.wftable.wfzebra tr {
     background:#3c4043;
     color: #dfe0e0;
+}
+
+/* Link List */
+
+ul.link_list li a:hover {
+    text-decoration: underline;
+    color: #dfe0e0 !important;
+}
+
+/* Fotostrecke */
+
+.fotostrecke_headline {
+    color: #999;
+    border-bottom: 2px solid #dfe0e0;
 }
 
 /* Footer */
