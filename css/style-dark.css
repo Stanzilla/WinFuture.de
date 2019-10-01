@@ -16,7 +16,7 @@ text timestamp #999
 }
 
 body {
-    background: var(--main-bg-color) !important;
+    background: #121212 !important;
     border-color: #3c4043 !important;
 }
 
