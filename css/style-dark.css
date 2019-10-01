@@ -153,7 +153,7 @@ a.snippet_ticker div.topteaser {
 }
 
 #rightWrap .metadata_box .rightBxIn ul li div ul.tools li {
-    background-image: url(https://i.imgur.com/Tn2yXlh.png);
+    background-image: url(../images/social_n_icons_2.png);
 }
 
 #rightWrap .metadata_box .rightBxIn ul li b {
@@ -163,14 +163,6 @@ a.snippet_ticker div.topteaser {
 .generic_box li {
     border: none; /* TODO backport */
 }
-
-/*
-.generic_box li a,
-.newsList6 li,
-.news_rubriken li a {
-    background: url(https://i.imgur.com/SwuWh7q.gif) left -90px no-repeat;  ../images/arrows.gif
-}
-*/
 
 .rightBxIn ul li {
     border-bottom: none;
@@ -227,9 +219,6 @@ a.snippet_ticker div.topteaser {
     color: #dfe0e0 !important;
 }
 
-/* .generic_box .rightBxIn div.htmlBx .p_widget {
-    margin-left: -10px;
-} */
 .centerWrap_no_boxes .primary_content {
     width: 985px;
 }
@@ -241,13 +230,13 @@ a.snippet_ticker div.topteaser {
 /* Flame Icon Boxen */
 .tab_flame,
 .rightBxFlameIcon {
-    background: url(https://i.imgur.com/iKJXpBc.png) no-repeat; /* ../images/flame.png */
+    background: url(../images/flame.png) no-repeat;
     top: 0px;
 }
 
 /* WF Icon Boxen */
 .rightBxWinFutureIcon {
-    background: url(https://i.imgur.com/XJR1rdh.png) no-repeat; /* ../images/wf_logo.png */
+    background: url(../images/wf_logo.png) no-repeat;
 }
 
 .editors_pick_head,
@@ -436,7 +425,7 @@ ul.orange_teaser_tabs {
 #header .navigation ul#breadcrumb li:not(.last) span:after,
 #header .navigation ul#breadcrumb li:not(.first) a:hover:before,
 #header .navigation ul#breadcrumb li:not(.last) a:hover:after {
-    content: url(https://i.imgur.com/9SykWE9.png) !important;
+    content: url(../images/breadcrumb_chevron.png) !important;
 }
 
 .rightBx {
@@ -465,7 +454,6 @@ span.exclusive a {
 }
 
 .mt20 {
-    /* margin-top: 0px !important; */
     margin-left: 0px;
     margin-right: -9px;
     margin-bottom: 10px;
@@ -540,8 +528,6 @@ h3.bottom_topcontents {
 
 .tabs {
     border-bottom: 1px solid #3c4043;
-    /* border-top-left-radius: 5px;
-    border-top-right-radius: 5px; */
 }
 
 .tabs .tab {
@@ -563,7 +549,7 @@ h3.bottom_topcontents {
 .centForm2 .submit,
 .box_news_einsenden input.submit,
 .headerR .button {
-    background: url(https://i.imgur.com/ItjdRpA.png) center no-repeat #2f3136; /* ../images/button_arrow.png */
+    background: url(../images/button_arrow.png) center no-repeat #2f3136;
     color: #dfe0e0;
     border-radius: 5px;
     border: 1px solid #dfe0e0;
@@ -590,7 +576,7 @@ h3.bottom_topcontents {
 .centForm2 .submit:hover,
 .box_news_einsenden input.submit:hover,
 .headerR .button:hover {
-    background:  url(https://i.imgur.com/ItjdRpA.png) center no-repeat #225790; /* ../images/button_arrow.png */
+    background:  url(../images/button_arrow.png) center no-repeat #225790;
 }
 
 /* CSS Button */
@@ -703,7 +689,7 @@ h3.bottom_topcontents {
 form.komsys_btn_r input,
 .komsys_btn_unfold,
 .komsys_btn_e {
-    background-image: url(https://i.imgur.com/IFhi2f4.png); /* ../images/komsys_sprite.png */
+    background-image: url(../images/komsys_sprite.png);
 }
 
 .komsys_btn_unfold,
