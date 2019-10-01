@@ -1,5 +1,4 @@
 /* colors
-background material recommended #121212
 background material lighter #383838
 background dark #121212
 background lighter #2f3136
@@ -8,11 +7,16 @@ background wf light blue #D2E0ED
 border darkest #121212;
 text light #DFE0E0
 text timestamp #999
-
 */
 
+:root {
+    --main-bg-color: #121212;
+    --main-bg-lighter: #2f3136;
+    --main-bg-light: #3C4043;
+}
+
 body {
-    background: #121212 !important;
+    background: var(--main-bg-color) !important;
     border-color: #3c4043 !important;
 }
 
@@ -86,12 +90,12 @@ ul.bottom_topcontents li {
     color: #999;
 }
 
+
 /* Main Content */
 .content_wrap h1.centerTitle {
     border-bottom: 1px solid #3c4043;
     font-size: 1em;
     color: #dfe0e0 !important;
-    /* text-transform: uppercase; */
 }
 
 #news_content .hmedia.small_teaser_picture img.photo {
@@ -127,6 +131,7 @@ h3.bottom_topcontents {
     color: #dfe0e0 !important;
 }
 
+
 /* News Ticker Box */
 a.snippet_ticker:visited h2 {
     font-size: 16px;
@@ -146,6 +151,7 @@ a.snippet_ticker div.topteaser {
     background: #3c4043;
     border-bottom: 1px dotted #dfe0e0;
 }
+
 
 /* News Info Box */
 #rightWrap .metadata_box div.head {
@@ -172,6 +178,7 @@ a.snippet_ticker div.topteaser {
 .VR_2 .item-container {
     background: none;
 }
+
 
 /* News Info Box Ende */
 .magazin_teaser li,
@@ -227,12 +234,14 @@ a.snippet_ticker div.topteaser {
     width: 293px;
 }
 
+
 /* Flame Icon Boxen */
 .tab_flame,
 .rightBxFlameIcon {
     background: url(../images/flame.png) no-repeat;
     top: 0px;
 }
+
 
 /* WF Icon Boxen */
 .rightBxWinFutureIcon {
@@ -270,10 +279,12 @@ a.snippet_ticker div.topteaser {
     border-top-right-radius: 0px;
 }
 
+
 /* Right Box Green */
 .right_greenBx {
     border-color: #88b740;
 }
+
 
 /* Right Box Orange */
 .right_orangeBx {
@@ -324,6 +335,7 @@ ul.orange_teaser_tabs {
     border-bottom: 1px solid #3c4043;
 }
 
+
 /* Header */
 #header_logo_link {
     background: url(../images/header_left_dark_2.png); /* ../images/header_left.png */
@@ -343,6 +355,7 @@ ul.orange_teaser_tabs {
     text-shadow: #000 1px 1px 0;
 }
 
+
 /* Main Navigation */
 #mainNavigation {
     background: #3c4043 !important;
@@ -354,8 +367,8 @@ ul.orange_teaser_tabs {
 
 #mainNavigation ul li a {
     text-shadow: #000 1px 1px 0;
-    /* line-height: 30px; */
 }
+
 
 /* Fold Navi aka "mehr" Menü */
 #header #topnavi #mainNavigation ul li ul.foldnavi {
@@ -397,6 +410,7 @@ ul.orange_teaser_tabs {
 #header #topnavi #mainNavigation ul li ul.foldnavi li.first a:hover {
     background: none !important;
 }
+
 
 /* Sub Navigation */
 #subNavigation {
@@ -469,6 +483,7 @@ span.exclusive a {
     /* background: url(https://i.wfcdn.de/5/tabs.gif) 0 -52px #F0F6FC no-repeat;  problem im gif, hintergrund weiß */
     background: none;
 }
+
 
 /* Image Borders */
 .bottom_topcontents li a img,
@@ -553,7 +568,6 @@ h3.bottom_topcontents {
     color: #dfe0e0;
     border-radius: 5px;
     border: 1px solid #dfe0e0;
-    /* padding: 3px 20px; */
     text-align: center;
     cursor: pointer;
     font-weight: 700;
@@ -579,6 +593,7 @@ h3.bottom_topcontents {
     background:  url(../images/button_arrow.png) center no-repeat #225790;
 }
 
+
 /* CSS Button */
 .css_button {
     display: inline-block;
@@ -592,6 +607,7 @@ h3.bottom_topcontents {
     cursor: pointer;
     font-weight: 700;
 }
+
 
 /* Comment System */
 #comments_box {
@@ -712,6 +728,7 @@ form.komsys_btn_r input,
     color: #dfe0e0;
 }
 
+
 /* Input Boxen */
 .deals_table_container .dataTables_filter input,
 input[type="text"],
@@ -729,6 +746,7 @@ textarea:focus {
     border: 1px solid #3c4043;
     background: #dfe0e0;
 }
+
 
 /* News Einsenden Box */
 #fs,
@@ -756,11 +774,13 @@ input.inputbox {
     outline: none;
 }
 
+
 /* News nach Rubriken Box */
 .rightBx.generic_box .rightBxIn ul.borderless_tag_arrow li a {
     background: #dfe0e0;
     border-radius: 5px;
 }
+
 
 /* Tags Box */
 div.tags div a {
@@ -803,10 +823,12 @@ div.tags div a.highlight{
 
 }
 
+
 /* Windows Specials Box */
 .special_teaser ul, .special_teaser .last {
     background: none !important;
 }
+
 
 /* Preisvergleich Box */
 .p_widget {
@@ -868,12 +890,10 @@ div.p_widget.mt0.nointelliTXT {
 	box-shadow: 1px 1px 5px #dfe0e0;
 }
 
+
 /* Preisvergleich Seite */
 #geizhals #ghbody #gh_searchform {
     background-image: none;
-    /* border: 1px solid #dfe0e0;
-    border-radius: 5px;
-    background: #3c4043; */
     border: none;
     border-radius: 0px;
     border-bottom: 1px solid #dfe0e0;
@@ -958,6 +978,7 @@ div.a_deal strong {
     padding-left: 30px;
 }
 
+
 /* Downloads */
 .generic_box.with_timestamp dfn,
 li.with_timestamp dfn {
@@ -999,6 +1020,7 @@ li.with_timestamp.dark_bottom {
     border-bottom: 4px solid #dfe0e0;
 }
 
+
 /* Infografiken */
 .infografik_list .column .infografik_entry {
     background: #3c4043;
@@ -1022,6 +1044,7 @@ li.with_timestamp.dark_bottom {
     color: #3c4043 !important;
 }
 
+
 /* Neueste Screenshots Box */
 .neueste_screenshots {
     background: #3c4043;
@@ -1044,13 +1067,13 @@ li.with_timestamp.dark_bottom {
     padding-bottom: 5px; /* TODO Backport */
 }
 
+
 /* Warning Box */
 .warning_box {
     background: #3c4043;
     border-radius: 5px;
-    /* border: 1px solid #3c4043; */
-
 }
+
 
 /* Tipp Einsenden */
 .news_einsenden_form .clearB_w label,
@@ -1059,8 +1082,9 @@ li.with_timestamp.dark_bottom {
 }
 
 .starLink {
-    background: url(https://i.imgur.com/bUPmlqp.png) left no-repeat; /* ../images/star.png */
+    background: url(../images/star.png) left no-repeat;
 }
+
 
 /* User Profile */
 .centerTitle_small {
@@ -1098,10 +1122,12 @@ li.with_timestamp.dark_bottom {
    clear: both;
 }
 
+
 /* Amazon Blitzangebote Box */
 #rightWrap .amazon_blitzangebote div.head {
     background: none;
 }
+
 
 /* Notebeooks Billiger Special */
 table.dataTable tbody tr{
@@ -1123,6 +1149,7 @@ table.deals_table thead tr th {
 .deals_table_container .dataTables_filter {
     right: 10px;
 }
+
 
 /* Admin Area */
 #folded_comments_list div,
@@ -1189,6 +1216,7 @@ ul.tagit {
     margin-left: -5px;
 }
 
+
 /*  Handy Vertrag Vergleich */
 .tx-vergleich {
     color: #121212;
@@ -1199,20 +1227,24 @@ ul.tagit {
     color: #3c4043;
 }
 
+
 /* Update Pack */
 .updatepack .download_button a {
     color: #121212 !important;
 }
+
 
 /* Newssuche */
 .wrmE {
     color: #121212;
 }
 
+
 /* Impressum */
 .skyBg_txt {
     background-color: #3c4043 !important;
 }
+
 
 /* Login / Register Flow */
 .registerform_head {
@@ -1246,6 +1278,7 @@ ul.tagit {
     background-image: none;
 }
 
+
 /* Windows 7 Special */
 .w7_special {
     color: #121212 !important;
@@ -1272,6 +1305,7 @@ ul.tagit {
     color: #121212!important;
 }
 
+
 /* Archiv */
 .archive_calendar a {
     color: #121212 !important;
@@ -1285,10 +1319,12 @@ ul.tagit {
     color: #121212;
 }
 
+
 /* News Einsenden */
 .send_news_tip label, .send_news_tip strong {
     color: #dfe0e0;
 }
+
 
 /* User Notification Bar */
 #user_notification_bar .warning_box {
@@ -1302,6 +1338,7 @@ ul.tagit {
 #user_notification_bar .warning_box .css_button {
     top: 0px;
 }
+
 
 /* Login Modal */
 .centForm11.logindialog {
@@ -1348,8 +1385,8 @@ div.line-thru.mt20.mb20 {
     background-image: url(https://i.imgur.com/l5uVrrZ.gif); /*url(https://i.imgur.com/pjr4SyM.gif); arrows_3.gif */
 }
 
-/* Zebra Tabelle */
 
+/* Zebra Tabelle */
 table.wftable th {
     background:#121212;
     color: #dfe0e0;
@@ -1369,19 +1406,20 @@ table.wftable.wfzebra tr {
     color: #dfe0e0;
 }
 
-/* Link List */
 
+/* Link List */
 ul.link_list li a:hover {
     text-decoration: underline;
     color: #dfe0e0 !important;
 }
 
-/* Fotostrecke */
 
+/* Fotostrecke */
 .fotostrecke_headline {
     color: #999;
     border-bottom: 2px solid #dfe0e0;
 }
+
 
 /* Footer */
 #footer {
