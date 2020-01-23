@@ -59,7 +59,6 @@ var(--border-light-gray)
 
 	--table-background-zebra: #efefef;
 	--box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
 }
 
 [data-theme="dark"] {
@@ -1278,4 +1277,34 @@ img.photo {
 
 .p_widget .title a {
 	color: var(--pwidget-outside-link-color);
+}
+
+/* Flipswitch fuer den Darkmode */
+
+.flipswitch {
+	font-weight: bold;
+	color: var(--link-color-blue);
+	background-color: var(--date-background-color);
+	border: 1px solid var(--link-color-blue);
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.flipswitch a {
+	cursor: pointer;
+	padding: 5px 10px;
+	text-decoration: none !important;
+	border-right: 1px solid var(--link-color-blue);
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.flipswitch a:last-child {
+	border: none;
+}
+
+.flipswitch a.inactive {
+	color: var(--date-background-color) !important;
+	background-color: var(--link-color-blue) !important;
 }
