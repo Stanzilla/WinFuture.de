@@ -16,6 +16,7 @@ var(--border-light-gray)
 	--main-bg-light: #3c4043;
 	--link-color-blue: #00438e;
 	--border-light-gray: #c0c0c0;
+	--border-lighter-gray: #ddd;
 	--teaser-text-color: #000;
 	--date-background-color: #e8f2fc;
 	--date-text-color: #000;
@@ -57,6 +58,8 @@ var(--border-light-gray)
 	--rounded-border-radius: 5px;
 
 	--table-background-zebra: #efefef;
+	--box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
 [data-theme="dark"] {
@@ -94,6 +97,9 @@ var(--border-light-gray)
 	--button-blue-background: #3c4043;
 	--button-blue-border-color: #dfe0e0;
 	--button-blue-text-color: #dfe0e0;
+
+	--box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+	--border-lighter-gray: #404040;
 }
 
 html,
@@ -630,9 +636,9 @@ a.buy_button.microsoft {
 	text-align: left;
 	font-size: 11px;
 	line-height: 1.4;
-	border: 1px solid #ddd;
+	border: 1px solid var(--border-lighter-gray);
 	margin: 10px auto;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: var(--box-shadow);
 	padding: 5px;
 	width: 90%;
 	min-width: 300px;
@@ -1238,9 +1244,9 @@ table.wftable div.p_widget {
 }
 
 .SF_14.ob-widget
-	.ob-widget-section
-	.ob-dynamic-rec-container
-	.ob-dynamic-rec-link {
+.ob-widget-section
+.ob-dynamic-rec-container
+.ob-dynamic-rec-link {
 	min-height: 96px;
 }
 
