@@ -11,7 +11,7 @@ var(--border-light-gray)
 */
 
 :root {
-    --main-bg-color: #f1f1f1;
+    --main-bg-color: #ffffff;
     --main-bg-lighter: #2f3136;
     --main-bg-light: #3c4043;
     --link-color-blue: #00438e;
@@ -55,6 +55,8 @@ var(--border-light-gray)
     --button-blue-text-color: #fff;
 
     --rounded-border-radius: 5px;
+
+    --table-background-zebra: #efefef;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -108,6 +110,13 @@ h3 {
     vertical-align: baseline;
     font-family: verdana;
 }
+html,
+body,
+div {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
 h1 {
     margin-bottom: 0;
 }
@@ -115,9 +124,9 @@ h2 {
     font-size: 16px;
 }
 h2 a {
+    color: var(--link-color-blue);
     display: block;
     padding: 5px 5px 1px 5px;
-    color: var(--link-color-blue);
     font-size: 14px;
     line-height: 19px;
     text-decoration: none;
@@ -284,8 +293,8 @@ h1.green {
 }
 
 .teaser {
-    padding: 0 5px 5px 5px;
     color: var(--teaser-text-color);
+    padding: 0 5px 5px 5px;
     font-size: 12px;
     line-height: 17px;
 }
@@ -333,8 +342,8 @@ h1.green {
 }
 
 .text {
-    padding: 0 5px 5px 5px;
     color: var(--teaser-text-color);
+    padding: 0 5px 5px 5px;
     font-size: 14px;
     line-height: 1.4;
 }
@@ -498,7 +507,7 @@ a.big_download_button {
     text-shadow: var(--button-text-shadow);
 
     background: url(//i.wfcdn.de/5/download-button-600x64-arrow.png) no-repeat
-        center;
+    center;
     background-size: cover;
 }
 a.big_download_button strong {
@@ -524,13 +533,13 @@ a.big_download_button span {
     width: 240px;
 }
 a.big_download_button.red {
-    background: url(//i.wfcdn.de/5/download-button-red-600x64-arrow.png)
-        no-repeat center;
+    background: url(//i.wfcdn.de/5/download-button-red-600x64-arrow.png) no-repeat
+    center;
     background-size: cover;
 }
 a.big_download_button.green {
     background: url(//i.wfcdn.de/5/download-button-green-600x64-arrow.png)
-        no-repeat center;
+    no-repeat center;
     background-size: cover;
 }
 a.whatsapp {
@@ -556,13 +565,23 @@ a.buy_button {
     margin: 5px 5px 5px 0;
     width: 167px;
     height: 25px;
-    background: url(//i.wfcdn.de/5/angebote_buttons.png) no-repeat;
+    background: url(//i.wfcdn.de/5/angebote_buttons_1.png) no-repeat;
 }
 a.buy_button.nbb {
     background-position: 0 -25px;
 }
+a.buy_button.saturn {
+    background-position: 0 -50px;
+}
+a.buy_button.mediamarkt {
+    background-position: 0 -75px;
+}
+a.buy_button.microsoft {
+    background-position: 0 -100px;
+}
 
 .adeal {
+    color: var(--color-red);
     max-width: 648px;
     display: table;
     text-align: left;
@@ -617,6 +636,10 @@ a.buy_button.nbb {
 .adeal .cell .p_img {
     max-width: 80px;
     max-height: 80px;
+}
+.adeal .cell .mtop5 a.css_button {
+    position: relative;
+    bottom: 8px;
 }
 .a_r {
     text-align: right;
@@ -981,8 +1004,8 @@ a.c_g.locked {
 }
 
 .widget_tabs {
-    width: 310px;
     border: 2px solid var(--date-background-color);
+    width: 310px;
     border-radius: 5px;
 }
 .widget_tabs .tab_contents {
@@ -1006,10 +1029,10 @@ a.c_g.locked {
     display: none;
 }
 .tabs .tab span::before {
-    content: "\25B8  ";
+    content: '\25B8  ';
 }
 .tabs .tab.active span::before {
-    content: "\25BE  ";
+    content: '\25BE  ';
 }
 
 .tabs .tab.active {
@@ -1054,7 +1077,7 @@ table.wftable.textleft th {
     text-align: left;
 }
 table.wftable td.bg_grey {
-    background: #efefef;
+    background: var(--table-background-zebra);
 }
 table.wftable.fetteranfang td:first-child {
     font-weight: bold;
@@ -1072,7 +1095,7 @@ table.wftable .css_button.small {
     width: 130px;
 }
 table.wftable.wfzebra tr:nth-child(odd) {
-    background: #efefef;
+    background: var(--table-background-zebra);
 }
 table.wftable a.big_download_button {
     display: inline-block;
@@ -1105,7 +1128,7 @@ table.wftable div.p_widget {
     min-height: 96px;
 }
 
-.spoods_widget_container_done[data-key="p3pE-L0ka-x58Y"] {
+.spoods_widget_container_done[data-key='p3pE-L0ka-x58Y'] {
     border-bottom: 1px solid black !important;
 }
 
