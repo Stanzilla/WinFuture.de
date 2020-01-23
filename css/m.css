@@ -581,68 +581,30 @@ a.buy_button.microsoft {
 }
 
 .adeal {
-    max-width: 648px;
-    display: table;
-    text-align: left;
-    font-size: 11px;
-    line-height: 1.4;
-    border: 1px solid #ddd;
-    margin: 10px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 5px;
-    width: 90%;
-    min-width: 300px;
+	max-width: 648px;
+	display: table;
+	text-align: left;
+	font-size: 11px;
+	line-height: 1.4;
+	border: 1px solid #ddd;
+	margin: 10px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	padding:5px; width: 90%;
+	min-width: 300px;
 }
-.adeal .cell strong a {
-    font-size: 14px;
-    text-decoration: none;
-}
-.adeal a.cell {
-    width: 80px;
-    padding-right: 10px;
-    text-align: center;
-}
-.adeal a.whatsapp {
-    display: inline-block;
-    margin: 5px 0 0 10px;
-}
-.adeal .c_r {
-    color: var(--color-red);
-}
-.adeal .cell .time {
-    font-weight: bold;
-    margin-bottom: 3px;
-}
-.adeal .cell table {
-    font-size: 11px;
-    border-collapse: collapse;
-}
-.adeal .cell table td {
-    padding-right: 5px;
-}
-.adeal .cell table .r {
-    font-weight: bold;
-    color: var(--color-red);
-}
-.adeal .cell table .g {
-    font-weight: bold;
-    color: var(--color-green);
-    text-decoration: none;
-}
-.adeal div.g {
-    color: var(--color-green);
-}
-.adeal .cell .p_img {
-    max-width: 80px;
-    max-height: 80px;
-}
-.adeal .cell .mtop5 a.css_button {
-    position: relative;
-    bottom: 8px;
-}
-.a_r {
-    text-align: right;
-}
+.adeal .cell strong a { font-size: 14px; text-decoration: none; }
+.adeal a.cell { width:80px; padding-right: 10px; text-align:center; }
+.adeal a.whatsapp { display:inline-block; margin: 5px 0 0 10px; }
+.adeal .c_r { color: var(--color-red); }
+.adeal .cell .time { font-weight: bold; margin-bottom: 3px; }
+.adeal .cell table { font-size: 11px; border-collapse: collapse; }
+.adeal .cell table td { padding-right: 5px; }
+.adeal .cell table .r { font-weight: bold; color: #7d7d7d; text-decoration: none; }
+.adeal .cell table .g { font-weight: bold; color: var(--color-green); text-decoration: none; }
+.adeal div.g { color: var(--color-green); }
+.adeal .cell .p_img { max-width: 80px; max-height: 80px; }
+.adeal .cell .mtop5 a.css_button { position:relative;bottom:8px; }
+.a_r { text-align: right; }
 .pager {
     text-align: center;
 }
