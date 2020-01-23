@@ -153,7 +153,7 @@ h3 a:active {
 #header {
     height: 44px;
     background: url(https://j.wfcdn.de/c/mobi/mobile_header_background.gif)
-        repeat-x;
+    repeat-x;
 }
 
 #header a img {
