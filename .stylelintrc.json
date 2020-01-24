@@ -1,9 +1,41 @@
 {
-    "rules": {
-        "block-closing-brace-newline-after": "always-multi-line",
-        "block-opening-brace-space-before": "always",
-        "block-closing-brace-newline-before": "always-multi-line",
-        "block-opening-brace-newline-after": "always-multi-line",
-        "indentation": 4
-    }
+	"extends": [
+		"stylelint-prettier/recommended"
+	],
+	"plugins": [
+		"stylelint-prettier"
+	],
+	"rules": {
+		"max-line-length": null,
+		"prettier/prettier": true,
+		"block-opening-brace-space-before": "always",
+		"block-opening-brace-newline-after": "always",
+		"block-closing-brace-empty-line-before": "never",
+		"block-closing-brace-newline-after": "always",
+		"selector-combinator-space-after": "always",
+		"selector-combinator-space-before": "always",
+		"selector-list-comma-newline-after": "always",
+		"selector-list-comma-newline-before": "never-multi-line",
+		"selector-list-comma-space-before": "never",
+		"value-list-comma-space-after": "always",
+		"indentation": [
+			"tab",
+			{
+				"except": [
+					"param"
+				],
+				"ignore": [
+					"param"
+				]
+			}
+		],
+		"rule-empty-line-before": [
+			"always",
+			{
+				"except": [
+					"first-nested"
+				]
+			}
+		]
+	}
 }

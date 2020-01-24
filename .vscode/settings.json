@@ -1,4 +1,0 @@
-{
-    "prettier.stylelintIntegration": true,
-    "css.lint.duplicateProperties": "warning"
-}
