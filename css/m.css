@@ -61,6 +61,8 @@ var(--border-light-gray)
 	--box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 	--max-width-video: 1935px;
+	--big-download-button-text: #ffffff;
+	--big-download-button-shadow: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -541,8 +543,8 @@ a.big_download_button {
 	overflow: hidden;
 	margin-bottom: 13px;
 
-	color: var(--color-white);
-	text-shadow: var(--button-text-shadow);
+	color: var(--big-download-button-text);
+	text-shadow: var(--big-download-button-text);
 
 	background: url(//i.wfcdn.de/5/download-button-600x64-arrow.png) no-repeat
 		center;
@@ -550,8 +552,8 @@ a.big_download_button {
 }
 
 a.big_download_button strong {
-	color: var(--color-white);
-	text-shadow: var(--button-text-shadow);
+	color: var(--big-download-button-text);
+	text-shadow: var(--big-download-button-text);
 	font-style: normal;
 	display: block;
 	font-weight: bold;
@@ -560,8 +562,8 @@ a.big_download_button strong {
 }
 
 a.big_download_button span {
-	color: var(--color-white);
-	text-shadow: var(--button-text-shadow);
+	color: var(--big-download-button-text);
+	text-shadow: var(--big-download-button-text);
 	display: block;
 	font-weight: normal;
 	letter-spacing: 1px;
