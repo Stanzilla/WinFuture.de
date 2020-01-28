@@ -544,7 +544,7 @@ a.big_download_button {
 	margin-bottom: 13px;
 
 	color: var(--big-download-button-text);
-	text-shadow: var(--big-download-button-text);
+	text-shadow: var(--big-download-button-shadow);
 
 	background: url(//i.wfcdn.de/5/download-button-600x64-arrow.png) no-repeat
 		center;
@@ -553,7 +553,7 @@ a.big_download_button {
 
 a.big_download_button strong {
 	color: var(--big-download-button-text);
-	text-shadow: var(--big-download-button-text);
+	text-shadow: var(--big-download-button-shadow);
 	font-style: normal;
 	display: block;
 	font-weight: bold;
@@ -563,7 +563,7 @@ a.big_download_button strong {
 
 a.big_download_button span {
 	color: var(--big-download-button-text);
-	text-shadow: var(--big-download-button-text);
+	text-shadow: var(--big-download-button-shadow);
 	display: block;
 	font-weight: normal;
 	letter-spacing: 1px;
