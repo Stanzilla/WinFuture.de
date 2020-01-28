@@ -440,8 +440,8 @@ h1.green {
 iframe.fb_iframe {
 	border: 0;
 	overflow: hidden;
-	width: 127px;
-	height: 24px;
+	width: 138px;
+	height: 28px;
 }
 
 h3.amazon_time_headline {
@@ -589,7 +589,7 @@ a.big_download_button.green {
 
 a.whatsapp {
 	position: relative;
-	bottom: 1px;
+	bottom: 0;
 }
 
 center a.rss {
