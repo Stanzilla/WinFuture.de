@@ -59,6 +59,8 @@ var(--border-light-gray)
 
 	--table-background-zebra: #efefef;
 	--box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+	--max-width-video: 1935px;
 }
 
 [data-theme="dark"] {
@@ -451,7 +453,7 @@ h3.amazon_time_headline {
 
 video {
 	width: 100%;
-	max-width: 985px;
+	max-width: var(--max-width-video);
 }
 
 .videop {
@@ -463,7 +465,7 @@ video {
 .videop img {
 	opacity: 0.5;
 	width: 100%;
-	max-width: 985px;
+	max-width: var(--max-width-video);
 	min-height: 100px;
 }
 
