@@ -517,6 +517,7 @@ div.big_download_button_container a.big_download_button {
 	height: 100%;
 	background-size: contain;
 	line-height: 3.7vw;
+	text-align: left;
 }
 
 div.big_download_button_container a.big_download_button strong {
