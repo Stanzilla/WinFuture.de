@@ -378,6 +378,11 @@ h1.green {
 	line-height: 1.4;
 }
 
+.text a.photo {
+	text-decoration: none;
+	font-style: italic;
+}
+
 .bnt,
 .bnt a,
 .amazon_time_jumplist span a {
