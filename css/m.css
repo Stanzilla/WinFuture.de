@@ -862,7 +862,7 @@ a.css_button.red {
 .warning_box h2,
 .warning_box h3 {
 	color: #000000;
-	background-color:
+	background-color: transparent;
 }
 
 .error_box {
