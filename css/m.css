@@ -183,7 +183,7 @@ h3 a:active {
 	background-color: red;
 }
 
-#header a:not(.m_login):not(.forum):.after {
+#header a:not(.m_login):not(.forum)::after {
 	content: "Home";
 }
 
