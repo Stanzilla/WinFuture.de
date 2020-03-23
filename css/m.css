@@ -185,6 +185,16 @@ h3 a:active {
 
 #header a:not(.m_login):not(.forum)::after {
 	content: "Home";
+	padding: 5px 5px;
+	font-weight: bold;
+	color: var(--link-color-blue);
+	background-color: var(--date-background-color);
+	border: 1px solid var(--link-color-blue);
+	font-size: 14px;
+	border-radius: 4px;
+	text-decoration: none !important;
+	display: inline-block;
+	white-space: nowrap;
 }
 
 .date {
