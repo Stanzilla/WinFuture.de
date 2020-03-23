@@ -63,6 +63,8 @@ var(--border-light-gray)
 	--max-width-video: 1935px;
 	--big-download-button-text: #ffffff;
 	--big-download-button-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+	--video-container-links: #666;
 }
 
 [data-theme="dark"] {
@@ -103,6 +105,8 @@ var(--border-light-gray)
 
 	--box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 	--border-lighter-gray: #404040;
+
+	--video-container-links: #eee;
 }
 
 html,
@@ -494,7 +498,7 @@ video {
 
 .video_container a,
 .video_container span {
-	color: #666;
+	color: var(--video-container-links);
 	text-decoration: none;
 	text-align: left;
 	display: inline-block;
@@ -850,6 +854,15 @@ a.css_button.red {
 	padding: 5px;
 	background: #fff9cd;
 	border: 1px solid #e5d472;
+	color: #000000;
+}
+
+.warning_box a,
+.warning_box h1,
+.warning_box h2,
+.warning_box h3 {
+	color: #000000;
+	background-color:
 }
 
 .error_box {
@@ -1153,7 +1166,7 @@ a.c_g.locked {
 
 .tabs .tab.active {
 	background: #2578bb;
-	color: var(--color-white);
+	color: #ffffff;
 	text-shadow: 1px 1px 0 #000;
 	border: 1px solid var(--color-white);
 	border-radius: 5px;
@@ -1282,7 +1295,7 @@ img.photo {
 }
 
 .p_widget .title a {
-	color: var(--pwidget-outside-link-color);
+	color: var(--pwidget-outside-link-color) !important;
 }
 
 /* Flipswitch fuer den Darkmode */
