@@ -1348,3 +1348,7 @@ img.photo {
 	color: var(--date-background-color) !important;
 	background-color: var(--link-color-blue) !important;
 }
+
+#g_content_recommendation {
+	text-align: center;
+}
