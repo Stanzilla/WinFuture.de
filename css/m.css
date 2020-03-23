@@ -178,8 +178,8 @@ h3 a:active {
 
 #header a:not(.m_login):not(.forum) {
 	position: absolute;
-	top: 16px;
-	left: 16px;
+	top: 12px;
+	left: 12px;
 }
 
 #header a:not(.m_login):not(.forum)::after {
@@ -463,8 +463,8 @@ h1.green {
 
 .forum {
 	position: absolute;
-	top: 16px;
-	right: 16px;
+	top: 12px;
+	right: 12px;
 }
 
 iframe.fb_iframe {
@@ -791,8 +791,8 @@ div.changelog_list ul li {
 
 .m_login {
 	position: absolute;
-	top: 16px;
-	right: 88px;
+	top: 12px;
+	right: 80px;
 }
 
 input.inputbox {
