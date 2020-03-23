@@ -166,8 +166,8 @@ h3 a:active {
 }
 
 #header {
-	height: 44px;
-	background: url(https://i.imgur.com/V1lJzwu.png) center no-repeat;
+	height: 50px;
+	background: url(https://i.imgur.com/YbBeFHv.png) center no-repeat;
 }
 
 #header a img {
@@ -177,6 +177,10 @@ h3 a:active {
 
 #header a:not(.m_login):not(.forum) {
 	content: "Home";
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	background-color: red;
 }
 
 .date {
