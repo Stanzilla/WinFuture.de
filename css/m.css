@@ -167,12 +167,16 @@ h3 a:active {
 
 #header {
 	height: 44px;
-	background-image: url(https://i.imgur.com/zZ8Vrj4.png) center no-repeat;
+	background: url(https://i.imgur.com/V1lJzwu.png) center no-repeat;
 }
 
 #header a img {
 	border: 0;
 	display: none;
+}
+
+#header a:not(.m_login):not(.forum) {
+	content: "Home";
 }
 
 .date {
@@ -442,8 +446,8 @@ h1.green {
 
 .forum {
 	position: absolute;
-	top: 8px;
-	right: 5px;
+	top: 16px;
+	right: 16px;
 }
 
 iframe.fb_iframe {
@@ -770,8 +774,8 @@ div.changelog_list ul li {
 
 .m_login {
 	position: absolute;
-	top: 8px;
-	right: 72px;
+	top: 16px;
+	right: 88px;
 }
 
 input.inputbox {
