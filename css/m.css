@@ -461,12 +461,6 @@ h1.green {
 	float: right;
 }
 
-.forum {
-	position: absolute;
-	top: 12px;
-	right: 12px;
-}
-
 iframe.fb_iframe {
 	border: 0;
 	overflow: hidden;
@@ -792,7 +786,7 @@ div.changelog_list ul li {
 .m_login {
 	position: absolute;
 	top: 12px;
-	right: 80px;
+	right: 5px;
 }
 
 input.inputbox {
@@ -1075,18 +1069,18 @@ a.c_g.locked {
 }
 
 #comments_reply,
-#comments_write {
+.comments_write {
 	padding: 0 3px;
 }
 
 #comments_reply b,
-#comments_write b {
+.comments_write b {
 	position: relative;
 	left: -3px;
 }
 
 #comments_reply textarea,
-#comments_write textarea {
+.comments_write textarea {
 	width: 100%;
 	position: relative;
 	top: 0;
@@ -1094,7 +1088,7 @@ a.c_g.locked {
 }
 
 #comments_reply .css_button,
-#comments_write .css_button {
+.comments_write .css_button {
 	margin: 3px 0 10px;
 	position: relative;
 	top: 0;
