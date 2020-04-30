@@ -66,8 +66,8 @@ var(--border-light-gray)
 
 	--video-container-links: #666;
 
-	--header-image-320: "https://j.wfcdn.de/c/mobi/mobile_header_320.gif";
-	--header-image-240: "https://j.wfcdn.de/c/mobi/mobile_header_240.gif";
+	--header-image-320: url("https://j.wfcdn.de/c/mobi/mobile_header_320.gif");
+	--header-image-240: url("https://j.wfcdn.de/c/mobi/mobile_header_240.gif");
 }
 
 [data-theme="dark"] {
@@ -111,8 +111,8 @@ var(--border-light-gray)
 
 	--video-container-links: #eee;
 
-	--header-image-320: "https://dev7.winfuture.de/css/mobi/mobile_header_dark_320.png";
-	--header-image-240: "https://dev7.winfuture.de/css/mobi/mobile_header_dark_240.png";
+	--header-image-320: url("https://dev7.winfuture.de/css/mobi/mobile_header_dark_320.png");
+	--header-image-240: url("https://dev7.winfuture.de/css/mobi/mobile_header_dark_240.png");
 }
 
 html,
@@ -173,12 +173,12 @@ h3 a:active {
 
 #header {
 	height: 50px;
-	background: url(var(--header-image-240) repeat-x;
+	background: var(--header-image-240) repeat-x;
 }
 
 @media screen and (min-width: 320px) {
 	#header {
-		background: url(var(--header-image-320));
+		background: var(--header-image-320) repeat-x;
 	}
 }
 
