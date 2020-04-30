@@ -184,6 +184,16 @@ h3 a:active {
 	}
 }
 
+#header a {
+	background: var(--header-image-240) no-repeat;
+}
+
+@media screen and (min-width: 320px) {
+	#header a {
+		background: var(--header-image-320) no-repeat;
+	}
+}
+
 #header a img {
 	border: 0;
 }
