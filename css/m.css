@@ -184,13 +184,13 @@ h3 a:active {
 	}
 }
 
-#header a:first() {
+#header a:first-child() {
 	background: var(--header-image-240) no-repeat;
 	height: 44px;
 }
 
 @media screen and (min-width: 320px) {
-	#header a:first() {
+	#header a:first-child() {
 		background: var(--header-image-320) no-repeat;
 		height: 44px;
 	}
