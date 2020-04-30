@@ -172,7 +172,7 @@ h3 a:active {
 }
 
 #header {
-	height: 50px;
+	height: 44px;
 	background: url(https://j.wfcdn.de/c/mobi/mobile_header_background.gif)
 		repeat-x;
 	/* background: var(--header-image-240) repeat-x; */
@@ -184,13 +184,15 @@ h3 a:active {
 	}
 }
 
-#header a {
+#header a:first() {
 	background: var(--header-image-240) no-repeat;
+	height: 44px;
 }
 
 @media screen and (min-width: 320px) {
-	#header a {
+	#header a:first() {
 		background: var(--header-image-320) no-repeat;
+		height: 44px;
 	}
 }
 
