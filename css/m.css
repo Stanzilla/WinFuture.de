@@ -65,6 +65,9 @@ var(--border-light-gray)
 	--big-download-button-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
 	--video-container-links: #666;
+
+	--header-image-320: "https://j.wfcdn.de/c/mobi/mobile_header_320.gif";
+	--header-image-240: "https://j.wfcdn.de/c/mobi/mobile_header_240.gif";
 }
 
 [data-theme="dark"] {
@@ -107,6 +110,9 @@ var(--border-light-gray)
 	--border-lighter-gray: #404040;
 
 	--video-container-links: #eee;
+
+	--header-image-320: "https://dev7.winfuture.de/css/mobi/mobile_header_dark_320.png";
+	--header-image-240: "https://dev7.winfuture.de/css/mobi/mobile_header_dark_240.png";
 }
 
 html,
@@ -163,6 +169,24 @@ h3 a {
 
 h3 a:active {
 	color: var(--link-color-active);
+}
+
+#header {
+	height: 50px;
+	background: url(var(--header-image-240) repeat-x;
+}
+
+@media screen and (min-width: 320px) {
+	#header {
+		background: url(var(--header-image-320));
+	}
+}
+
+
+#header a:not(.m_login):not(.forum) {
+	position: absolute;
+	top: 12px;
+	left: 12px;
 }
 
 .date {
