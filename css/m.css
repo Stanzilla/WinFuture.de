@@ -1,4 +1,6 @@
-/* colors
+/* WinFuture.de Mobile CSS /*
+
+/* Colors
 background material lighter #383838
 background dark #121212
 background lighter #2f3136
@@ -7,7 +9,6 @@ background wf light blue #D2E0ED
 border darkest #121212;
 text light #dfe0e0
 text timestamp #999
-var(--border-light-gray)
 */
 
 :root {
@@ -183,14 +184,9 @@ h3 a:active {
 		/* background: var(--header-image-320) repeat-x; */
 	}
 }
+
 #header a img {
 	border: 0;
-}
-
-#header a:not(.m_login):not(.forum) {
-	position: absolute;
-	top: 12px;
-	left: 12px;
 }
 
 #logo {
@@ -206,7 +202,7 @@ h3 a:active {
 }
 
 #logo a {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 .date {
@@ -798,7 +794,7 @@ div.changelog_list ul li {
 
 .m_login {
 	position: absolute;
-	top: 12px;
+	top: 6px;
 	right: 5px;
 }
 
