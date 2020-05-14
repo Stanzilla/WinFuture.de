@@ -71,6 +71,8 @@ text timestamp #999
 	--header-image-240: url("https://j.wfcdn.de/c/mobi/mobile_header_240.gif");
 
 	--header-background: url("https://j.wfcdn.de/c/mobi/mobile_header_background.gif");
+
+	--wf-table-header: #ccc;
 }
 
 [data-theme="dark"] {
@@ -109,6 +111,7 @@ text timestamp #999
 	--button-blue-border-color: #dfe0e0;
 	--button-blue-text-color: #dfe0e0;
 
+	--table-background-zebra: #212121;
 	--box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 	--border-lighter-gray: #404040;
 
@@ -118,6 +121,8 @@ text timestamp #999
 	--header-image-240: url("https://dev7.winfuture.de/css/mobi/mobile_header_dark_240.png");
 
 	--header-background: url("https://dev7.winfuture.de/css/mobi/mobile_header_dark_background.png");
+
+	--wf-table-header: #424242;
 }
 
 html,
@@ -1215,7 +1220,7 @@ table.wftable th {
 	padding: 10px 5px;
 	border: 1px solid;
 	overflow: hidden;
-	background: #ccc;
+	background: var(--wf-table-header);
 	vertical-align: top;
 }
 
