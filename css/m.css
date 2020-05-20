@@ -123,10 +123,10 @@ text timestamp #999
 	--header-background: url("https://dev7.winfuture.de/css/mobi/mobile_header_dark_background.png");
 
 	--wf-table-header: #424242;
+}
 
-	.MB_1.ob-vertical-strip-layout .ob-unit.ob-rec-text {
-		color: #ffffff;
-	}
+[data-theme="dark"] .MB_1.ob-vertical-strip-layout .ob-unit.ob-rec-text {
+	color: #ffffff;
 }
 
 html,
