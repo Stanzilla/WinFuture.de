@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Stanzilla/WinFuture.de#readme",
   "devDependencies": {
     "prettier": "^2.1.1",
-    "stylelint": "^13.7.0",
+    "stylelint": "^13.7.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-prettier": "^1.1.2"
   }
